@@ -2,7 +2,8 @@
 
 ## User-Centric Frontend Development - Code Institute
 
-## Living LandscapesThis static website was created for the company Living Landscapes. 
+## Living Landscapes
+This static website was created for the company Living Landscapes. 
 Living Landscapes is a fictitious landscaping company based in Clonakilty, in Co. Cork.  
 
 The purpose of this website is to increase customer interaction, improve customer experience and build brand awareness. 
@@ -13,6 +14,9 @@ The website includes 4 seperate web pages and is created using HTML and CSS.
 
 ## Contents
 1. UX(link later)
+    * Strategy (em)
+    * Project Goals (em)
+    * Structure (em)
     * User Stories
     * Wireframes
     * Surface
@@ -43,7 +47,7 @@ The website includes 4 seperate web pages and is created using HTML and CSS.
 
 ### Strategy
 
-#### Project Goals
+### Project Goals
 The goals of this website inlclude:
 * Increase Customer Interaction
 * Showcase previous work 
@@ -51,6 +55,7 @@ The goals of this website inlclude:
 * Improve customer experience
 
 | Opportunity/Problem           | Importance      | Viability     |
+|-------------------------------|-----------------|---------------|                                                            --|
 | Increase customer interaction | 5               | 5             |
 | Showcase previous work        | 4               | 4             |
 | Build Brand awareness         | 5               | 4             |
@@ -58,7 +63,7 @@ The goals of this website inlclude:
 | Improve customer experience   | 4               | 5             |
 |                               | 22              | 20            |
 
-#### User Stories
+### User Stories
 * As a prospective client, I would like to an 'about us' section, so that I can learn about the company, staff professional qualifications and company location. 
 
 * As a prospective client, I would like to be able to send an online enquiry, so that I can receive additional information.
@@ -90,6 +95,7 @@ The following is a list of features which will not be included:
 * Back-end site development
 
 ### Structure
+--
 
 ### Wireframes
 All wireframes were created using the software; Balsamiq. 
