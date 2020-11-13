@@ -41,9 +41,24 @@ The website includes 4 seperate web pages and is created using HTML and CSS.
 
 ## UX
 
-goals
+### Strategy
 
-### User Stories
+#### Project Goals
+The goals of this website inlclude:
+* Increase Customer Interaction
+* Showcase previous work 
+* Build Brand awareness  
+* Improve customer experience
+
+| Opportunity/Problem           | Importance      | Viability     |
+| Increase customer interaction | 5               | 5             |
+| Showcase previous work        | 4               | 4             |
+| Build Brand awareness         | 5               | 4             |
+| Become an industry leader     | 4               | 1             |
+| Improve customer experience   | 4               | 5             |
+|                               | 22              | 20            |
+
+#### User Stories
 * As a prospective client, I would like to an 'about us' section, so that I can learn about the company, staff professional qualifications and company location. 
 
 * As a prospective client, I would like to be able to send an online enquiry, so that I can receive additional information.
@@ -60,27 +75,39 @@ goals
 
 * As an existing client and admirer of the company, I would like to be able to connect and follow the company through social media platforms, so that I build a connection with the brand.
 
+### Project Scope
+
+Based on the user story findings, the following are features which will be inlcuded:
+* links to company social platforms
+* A contact us form
+* An 'About Us' section
+* Information on previous creations 
+
+The following is a list of features which will not be included: 
+* Ecommerce functionality
+* Social media as an extention of the business
+* A blog
+* Back-end site development
+
+### Structure
 
 ### Wireframes
-Wireframes were created using Balsamiq. 
+All wireframes were created using the software; Balsamiq. 
 
 **Desktop** 
-* Home Page (link to )
-* About Us
-* Our Creations
-* Contact Us
+* [Home Page](assets/wireframes/home-desktop.png)
+* [About Us](/assets/wireframes/about-desktop.png)
+* [Contact Us](/assets/wireframes/contact-desktop.png)
 
 **Tablet**
-* Home Page (link to )
-* About Us
-* Our Creations
-* Contact Us
+* [Home Page](assets/wireframes/home-tablet.png)
+* [About Us](assets/wireframes/about-tablet.png)
+* [Contact Us](assets/wireframes/contact-tablet.png)
 
 **Mobile**
-* Home Page (link to )
-* About Us
-* Our Creations
-* Contact Us
+* [Home Page](assets/wireframes/home-mobile.png)
+* [About Us](assets/wireframes/about-mobile.png)
+* [Contact Us](assets/wireframes/contact-tablet.png)
 
 ### Surface
 Colour palette Used
