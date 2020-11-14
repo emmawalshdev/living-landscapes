@@ -15,8 +15,8 @@ body{
 h1, h2, h3, h4, h5, h6, 
 .navbar .nav-link{
     font-family:'B612', sans-serif;
+    text-transform: capitalize;
 }
-/* navbar */
 
 .nav-container{
     padding:0;
@@ -114,3 +114,11 @@ h1, h2, h3, h4, h5, h6,
     top:0;
     left:0;
 }
+
+/*blurb */
+
+.blurb{
+    margin:50px 21px;
+    display:block;
+}
+
