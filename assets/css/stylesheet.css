@@ -100,7 +100,9 @@ h1, h2, h3, h4, h5, h6,
 } 
 
 .jumbotron p{
-    color:rgb(150, 31, 130);
+    color: seashell;
+    font-size: 110%;
+    font-weight: 400;
     
 }
 
@@ -108,7 +110,7 @@ h1, h2, h3, h4, h5, h6,
     position:absolute;
     height:100%;
     width:100%;
-    opacity:0.4;
+    background-color: rgba(0,0,0,0.1);
     top:0;
     left:0;
 }
