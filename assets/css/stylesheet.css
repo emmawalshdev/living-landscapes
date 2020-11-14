@@ -62,3 +62,53 @@ h1, h2, h3, h4, h5, h6,
     }
 
 }
+
+/* home banner */
+
+.banner-container{
+    height:70vh;
+    background: url(/assets/images/lavgarden.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display:flex;
+    align-items:center;
+    justify-content: center;
+
+    position: relative;
+}
+
+/* btn styling */
+.btn--cta{
+    background-color: green;
+    color:white;
+}
+
+.btn--cta:hover{
+    background-color:rgb(150, 31, 130);
+    color:white;
+}
+
+.jumbotron{
+    background-color:transparent;
+}
+
+.jumbotron h1{
+    color:#f5f3e9;
+} 
+
+.jumbotron p{
+    color:rgb(150, 31, 130);
+    
+}
+
+.overlay{
+    position:absolute;
+    height:100%;
+    width:100%;
+    opacity:0.4;
+    top:0;
+    left:0;
+}
