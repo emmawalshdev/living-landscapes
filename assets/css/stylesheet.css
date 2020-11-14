@@ -1,8 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&family=Roboto&display=swap');
+
+/*
+    font-family: 'B612', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+*/
+
+/*fonts */
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, 
+.navbar .nav-link{
+    font-family:'B612', sans-serif;
+}
+/* navbar */
+
 .nav-container{
-    margin:0;
     padding:0;
 }
 
+.navbar{
+    padding:0, 2px;
+}
+
+.navbar-brand{
+    margin-right:10%;
+}
+
+.navbar li{
+    margin: 0px 15px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color:rgb(22, 94, 22);
+    font-weight: 400;
+}
+
+.navbar-light .navbar-nav .nav-link::after {
+    color:rgb(22, 94, 22);
+    font-weight: 400;
+}
+
+.hvr-outline-in{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+}
 
 @media(min-width:992px){
     .navbar{
