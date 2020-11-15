@@ -145,18 +145,32 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .social-link-group{
-    text-align: center;
     padding:20px;
     margin:20px;
+    text-align: center;
+
 }
 
-.social-link-group a i{
+.icon{
     height:50px;
     width:50px;
     font-size:32px;
     color:rgb(55, 151, 55);
+    margin-top:20px;
 }
 
-.social-link-group a i:hover{
+.icon:hover{
+    color:rgb(211, 31, 181);
+}
+
+.footer-title-text{
+    font-family: 'B612', sans-serif;
+    font-weight:bold;
+    color:rgb(55, 151, 55);
+}
+
+.footer-title-text:hover{
+    font-family: 'B612', sans-serif;
+    font-weight:bold;
     color:rgb(211, 31, 181);
 }
