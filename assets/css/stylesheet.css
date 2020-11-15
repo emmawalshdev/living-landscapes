@@ -83,7 +83,7 @@ h1, h2, h3, h4, h5, h6,
 
 /* btn styling */
 .btn--cta{
-    background-color: green;
+    background-color: rgb(55, 151, 55);
     color:white;
 }
 
@@ -133,8 +133,29 @@ h1, h2, h3, h4, h5, h6,
     text-align: center;
 }
 
+.logo img{
+    width:240px;
+    height:80px;
+}
 .blurb-contact{
     padding:20px;
     margin:20px;
     text-align: center;
+}
+
+.social-link-group{
+    text-align: center;
+    padding:20px;
+    margin:20px;
+}
+
+.social-link-group a i{
+    height:50px;
+    width:50px;
+    font-size:32px;
+    color:rgb(55, 151, 55);
+}
+
+.social-link-group a i:hover{
+    color:rgb(211, 31, 181);
 }
