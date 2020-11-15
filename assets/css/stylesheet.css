@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5, h6,
 
 .nav-container{
     padding:0;
+    background-color:rgb(221, 230, 191);
 }
 
 .navbar{
@@ -122,3 +123,18 @@ h1, h2, h3, h4, h5, h6,
     display:block;
 }
 
+.footer-section{
+    background-color: rgb(221, 230, 191);
+}
+
+.logo{
+    padding:20px;
+    margin:20px;
+    text-align: center;
+}
+
+.blurb-contact{
+    padding:20px;
+    margin:20px;
+    text-align: center;
+}
