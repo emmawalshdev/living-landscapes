@@ -195,8 +195,15 @@ h1, h2, h3, h4, h5, h6,
     box-sizing:content-box;
 }
 
-@media(max-width: 1026px) and (min-width:768px){
-.ourcreations img{
-    height:200px;
-    width:200px;
+@media screen and (max-width: 768px) {
+  .creationexamples {
+    margin:20px 0;
+  }
+}
+
+@media(max-width: 1026px) and (min-width:768px)
+{
+    .ourcreations img{
+        height:200px;
+        width:200px;
 }
