@@ -16,6 +16,7 @@ h1, h2, h3, h4, h5, h6,
 .navbar .nav-link{
     font-family:'B612', sans-serif;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .nav-container{
@@ -206,4 +207,17 @@ h1, h2, h3, h4, h5, h6,
     .ourcreations img{
         height:200px;
         width:200px;
+                    }
+}
+
+/*company key points and awards */
+.key-company-points-awards{}
+
+
+.key-company-points{
+    background-color:white;
+}
+
+.awards-section{
+    background-color:rgb(231, 231, 231);
 }
