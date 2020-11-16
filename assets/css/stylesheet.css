@@ -40,7 +40,6 @@ h1, h2, h3, h4, h5, h6,
     color:rgb(22, 94, 22);
     font-weight: bold;
     padding: 10px 15px;
-    font-family: "b612", sans serif;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -181,3 +180,23 @@ h1, h2, h3, h4, h5, h6,
     text-decoration: none;
 }
 
+/*our creations homepage */
+.ourcreations{
+    background-color: #e7e7e7;
+    padding:50px 30px;
+}
+.ourcreations img{
+    height:300px;
+    width:300px;
+}
+
+.creationexamples{
+    padding:5px;
+    box-sizing:content-box;
+}
+
+@media(max-width: 1026px) and (min-width:768px){
+.ourcreations img{
+    height:200px;
+    width:200px;
+}
