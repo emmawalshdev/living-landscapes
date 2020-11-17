@@ -211,14 +211,60 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /*company key points and awards */
-.key-company-points-awards{}
-
+.key-company-points-awards{
+    padding:20px 0;
+}
 
 .key-company-points{
     background-color:white;
     text-align:center;
+    margin:auto;
+    width: 95%;
+}
+
+.key-company-points i{
+    margin-bottom: 40px;
+    font-size: 40px;
 }
 
 .awards-section{
     background-color:rgb(231, 231, 231);
+    position:relative;
+    padding-top:50px;
+}
+
+.awards-item{
+    border-left: 5px solid black;
+    position:relative;
+    padding: 25px;
+}
+.awards-item:before{
+    content:attr(data-adates);
+    padding:0;
+    font-family: "B612", sans-serif;
+    font-weight:400;
+    font-size: 0.8em;
+}
+
+.awards-item:after{
+    content:"";
+    height:12px;
+    width:12px;
+    display:block;
+    border-radius:20px;
+    background-color: black;
+    position:absolute;
+    top: 50%;
+    left: -8px;
+}
+
+.awards-timeline{
+    padding: 0px 5px;
+    margin-bottom:5px;
+}
+
+.awards-item h6{
+        text-align:left! important;
+        padding:2px 0px;
+        margin:4px 0px;
 }
