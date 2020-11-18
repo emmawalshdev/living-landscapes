@@ -211,15 +211,24 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /*company key points and awards */
-.key-company-points-awards{
-    padding:20px 0;
+.testimonials-awards{
+    padding:0px;
 }
 
-.key-company-points{
-    background-color:white;
+.testimonial-section{
+    background-color:rgb(214, 214, 214);
     text-align:center;
     margin:auto;
+    padding-top:50px;
     width: 95%;
+}
+
+.key-company-elements{
+    background-color: white;
+    text-align:center;
+    margin:auto;
+    padding:50px 0px;
+    width: 100%;
 }
 
 .key-company-points i{
@@ -229,7 +238,6 @@ h1, h2, h3, h4, h5, h6,
 
 .awards-section{
     background-color:rgb(231, 231, 231);
-    position:relative;
     padding-top:50px;
 }
 
