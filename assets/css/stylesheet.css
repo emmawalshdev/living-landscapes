@@ -224,8 +224,8 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .testimonial-section .shadow-box{
-    width: 255px;
-    height: 255px;
+    width: 50%;
+    height: 50%;
     margin:0 auto;
     background-color: rgb(221, 230, 191);
     border-radius:50%;
@@ -239,15 +239,15 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .testimonial-section img{
-    height:250px;
-    width:250px;
+    height:95%;
+    width:95%;
     border-radius:50%;
 }
 
 .testimonial-card{
     background-color: rgb(255, 255, 255);
     border-radius:5%;
-    width: 80%;
+    width: 95%;
     height:95%;
     box-shadow: 0 0 0 3px rgba(55, 151, 55, 0.3);
 }
