@@ -224,8 +224,8 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .testimonial-section .shadow-box{
-    width: 50%;
-    height: 50%;
+    width: 13em;
+    height: 13em;
     margin:0 auto;
     background-color: rgb(221, 230, 191);
     border-radius:50%;
