@@ -196,6 +196,11 @@ h1, h2, h3, h4, h5, h6,
     box-sizing:content-box;
 }
 
+.creationexamples h5{
+    margin-top:7px;
+    color:rgb(55, 151, 55);
+}
+
 @media screen and (max-width: 768px) {
   .creationexamples {
     margin:20px 0;
@@ -322,4 +327,10 @@ h1, h2, h3, h4, h5, h6,
     justify-content: center;
 
     position: relative;
+}
+
+/*about us - our services */
+
+.ourcreations p{
+    padding: 0 26px;
 }
