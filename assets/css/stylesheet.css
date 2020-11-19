@@ -89,6 +89,7 @@ h1, h2, h3, h4, h5, h6,
 .btn--cta{
     background-color: rgb(55, 151, 55);
     color:white;
+    margin: 0 auto;
 }
 
 .btn--cta:hover{
@@ -338,7 +339,32 @@ h1, h2, h3, h4, h5, h6,
 
 /* about us -our staff */
 
-.testimonial-card button,
-.testimonial-card .experience p{
-    margin-bottom: 20px;
+
+
+.testimonial-section button{
+    display:block;
 }
+
+.progress{
+    position:relative;
+    height: 30px;
+    margin:4px;
+}
+
+.progress-type{
+    position:absolute;
+    left:0;
+    font: weight 400;
+    color:#fafafa;
+    background-color:rgba(25,25,25,0.2);
+    padding:3px 30px 2px 10px;
+}
+
+.meet-team-section{
+    padding-bottom:15px;
+}
+
+.textunderpic{
+    margin:20px 0px;
+}
+
