@@ -255,6 +255,7 @@ h1, h2, h3, h4, h5, h6,
     width: 95%;
     height:95%;
     box-shadow: 0 0 0 3px rgba(55, 151, 55, 0.3);
+
 }
 
 .key-company-elements{
@@ -333,4 +334,11 @@ h1, h2, h3, h4, h5, h6,
 
 .ourcreations p{
     padding: 0 26px;
+}
+
+/* about us -our staff */
+
+.testimonial-card button,
+.testimonial-card .experience p{
+    margin-bottom: 20px;
 }
