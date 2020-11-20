@@ -363,15 +363,3 @@ h1, h2, h3, h4, h5, h6,
 .meet-team-section{
     padding-bottom:15px;
 }
-
-.textunderpic{
-    margin:20px 0px;
-}
-
-.teamcard{
-    background-color: rgb(255, 255, 255);
-    border-radius:5%;
-    width: 95%;
-    height:95%;
-    box-shadow: 0 0 0 3px rgba(55, 151, 55, 0.3);
-}
