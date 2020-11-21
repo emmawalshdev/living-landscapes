@@ -249,6 +249,13 @@ h1, h2, h3, h4, h5, h6,
     border-radius:50%;
 }
 
+@media(max-width: 1027px) and (min-width:768px){
+.testimonial-section .shadow-box{
+    width: 10em;
+    height: 10em;
+}
+}
+
 .testimonial-card{
     background-color: rgb(255, 255, 255);
     border-radius:5%;
@@ -369,5 +376,17 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .test-box{
-    height:230px;
+    height:210px;
+}
+
+@media(max-width: 1027px) and (min-width:768px){
+.test-box{
+    height:270px;
+}
+
+
+}
+
+.team-member{
+    margin:20px 0px;
 }
