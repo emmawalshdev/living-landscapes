@@ -51,6 +51,60 @@
             </div>
         </div>
     </section>
+    <section class="container-fluid">
+        <div class="row bg-color-contact">
+            <div class="col-12">
+                <div class="contact-us-form">
+                    <h3 class="mb-3">
+                        Contact us
+                    </h3>
+                    <h6>
+                        Please specify your preferred mode of contact and we will respond as quickly as possible
+                    </h6>
+                    <hr class="m-5">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="title">Title</label>
+                            <select id="title" name="title" class="form-control">
+                                <option value="Mr">Mr</option>
+                                <option value="Mrs">Mrs</option>
+                                <option value="Ms">Ms</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="fname">First Name:</label>
+                            <input type="text" class="form-control" id="fname" aria-describedby="firstname" size="10">
+                        </div>
+                        <div class="form-group">
+                            <label for="lname" class="short-contact-field">Last Name:</label>
+                            <input type="text" class="form-control" id="lname" aria-describedby="lastname">
+                        </div>
+                    <div class="form-group">
+                        <label for="lname">Email Address:</label>
+                        <input type="text" class="form-control" id="contactemail" aria-describedby="lastname">
+                    </div>
+                    <div class="form-group">
+                        <label for="telno">Phone Number:</label>
+                        <input type="text" class="form-control" id="telno" aria-describedby="telno" maxlength="15" placeholder="0860544545">
+                    </div>        
+                    <div class="form-group">
+                        <label for ="message">Your Message</label>
+                        <textarea name="message" class="form-control" id="message" rows="7" cols="30" aria-describedby="message" required>
+                        </textarea>
+                    </div>
+                    <div class="form-group">
+                        <p>Preferred method of contact:</p>
+                        <input type="radio" id="telephonecall" name="preferredmethod" value="telephonecall" >
+                        <label for="telephonecall"> Telephone call</label><br>
+                        <input type="radio" id="email" name="preferredmethod" value="email">
+                        <label for ="email">Email</label>
+                    </div>
+                    <button type="submit" class="btn btn--cta">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer class="container-fluid footer-section">
     <div class="row">
         <div class="col-12 col-lg-4">
