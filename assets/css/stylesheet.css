@@ -89,7 +89,6 @@ h1, h2, h3, h4, h5, h6,
 .btn--cta{
     background-color: rgb(55, 151, 55);
     color:white;
-    margin: 0 auto;
 }
 
 .btn--cta:hover{
@@ -395,8 +394,17 @@ h1, h2, h3, h4, h5, h6,
     background-color:rgb(214, 214, 214);
 }
 
-.contact-us-form{
-    padding:50px 20px;
+.contact-form-format{
     margin:0 auto;
-    max-width:60%;
+    max-width:70%;
+    padding-top:15px;
+}
+
+.contact-heading{
+    Margin-top:30px;
+}
+
+.contact-button{
+    margin:40px 0;
+    text-align: center;
 }
