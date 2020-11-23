@@ -192,12 +192,12 @@ h1, h2, h3, h4, h5, h6,
     padding:50px 30px;
 }
 
-.shadow-box{
-    width: 15em;
-    height: 15em;
+.shadow-box1{
+    width: 17em;
+    height: 17em;
     margin:0 auto;
     background-color: rgb(221, 230, 191);
-    border-radius:50%;
+    border-radius:30%;
     box-shadow: 0 0 0 3px rgba(55, 151, 55, 0.3);
 
     display:flex;
@@ -207,11 +207,10 @@ h1, h2, h3, h4, h5, h6,
     position: relative;
 }
 
-}
 .creationexamples img{
     height:95%;
     width:95%;
-    border-radius:50%;
+    border-radius:30%;
 }
 
 /*
@@ -222,36 +221,62 @@ h1, h2, h3, h4, h5, h6,
 */
 
 .creationexamples h5{
-    margin-top:7px;
+    margin-top:15px;
     color:rgb(55, 151, 55);
 }
-/*
-@media screen and (max-width: 768px) {
-  .creationexamples {
-    margin:20px 0;
+
+@media(max-width: 989px) and (min-width:768px){
+    .shadow-box1{
+    width: 14em;
+    height: 14em;
+}
+}
+
+@media only screen and (max-width: 768px) {
+  .creationexamples p{
+    padding:20px;
+    margin-bottom:20px;
   }
 }
 
-@media(max-width: 1026px) and (min-width:768px)
-{
-    .ourcreations img{
-        height:200px;
-        width:200px;
-                    }
-}
-
-*/
 
 /* key company pointss */
-.testimonials-awards{
+
+
+.key-company-elements{
+    background-color: white;
+    text-align:center;
+    margin:0 auto;
+    padding:50px 0px;
+    width: 100%;
+}
+
+.key-icon{
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+/*testimonials-and-awards-section */
+
+.testimonials-awards-container{
     padding:50px 0px;
 }
 
 .testimonial-section{
     background-color:rgb(214, 214, 214);
     text-align:center;
-    margin:auto;
+   /* margin: 0 auto;*/
     padding:50px 2em;
+}
+
+.testimonial-card{
+    background-color: rgb(255, 255, 255);
+    border-radius:5%;
+    width: 95%;
+    height:95%;
+    /*box-shadow: 0 0 0 3px rgba(55, 151, 55, 0.3);*/
+    margin: 5px 5%;
+
 }
 
 .shadow-box{
@@ -260,7 +285,7 @@ h1, h2, h3, h4, h5, h6,
     margin:0 auto;
     background-color: rgb(221, 230, 191);
     border-radius:50%;
-    box-shadow: 0 0 0 3px rgba(55, 151, 55, 0.3);
+    /*box-shadow: 0 0 0 3px rgba(55, 151, 55, 0.3);*/
 
     display:flex;
     align-items:center;
@@ -281,29 +306,6 @@ h1, h2, h3, h4, h5, h6,
     width: 10em;
     height: 10em;
 }
-}
-
-.testimonial-card{
-    background-color: rgb(255, 255, 255);
-    border-radius:5%;
-    width: 95%;
-    height:95%;
-    box-shadow: 0 0 0 3px rgba(55, 151, 55, 0.3);
-    margin: 5px 5%;
-
-}
-
-.key-company-elements{
-    background-color: white;
-    text-align:center;
-    margin:auto;
-    padding:50px 0px;
-    width: 100%;
-}
-
-.key-company-points i{
-    margin-bottom: 40px;
-    font-size: 40px;
 }
 
 .awards-section{
