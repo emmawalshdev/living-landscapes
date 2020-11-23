@@ -8,6 +8,7 @@
 
 /*fonts */
 
+/* ------------------------------------ index.html ------------------------ */
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -87,12 +88,14 @@ h1, h2, h3, h4, h5, h6,
     color:white;
 }
 
+/*jumbotrol */
+
 .jumbotron{
     background-color: transparent;
 }
 
 .jumbotron h1{
-    color:#f5f3e9;
+    color:seashell;
 } 
 
 .jumbotron p{
@@ -111,12 +114,14 @@ h1, h2, h3, h4, h5, h6,
     left:0;
 }
 
-/*blurb */
+/*our-story-section */
 
 .blurb{
-    margin:50px 21px;
-    display:block;
+    padding:50px 20px;
+    text-align: center;
 }
+
+/*our creations section */
 
 .footer-section{
     background-color: rgba(224, 249, 209, 0.5);
@@ -138,6 +143,13 @@ h1, h2, h3, h4, h5, h6,
     margin:20px;
     text-align: center;
 }
+
+.creationexamples img{
+    height:95%;
+    width:95%;
+    border-radius:50%;
+}
+
 
 .social-link-group{
     padding:20px;
@@ -173,25 +185,47 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /*our creations homepage */
-.ourcreations{
-    background-color: #e7e7e7;
+
+.our-creations-container{
+    background-color:rgb(231, 231, 231);
+    text-align:center;
     padding:50px 30px;
 }
-.ourcreations img{
-    height:300px;
-    width:300px;
+
+.shadow-box{
+    width: 15em;
+    height: 15em;
+    margin:0 auto;
+    background-color: rgb(221, 230, 191);
+    border-radius:50%;
+    box-shadow: 0 0 0 3px rgba(55, 151, 55, 0.3);
+
+    display:flex;
+    align-items:center;
+    justify-content: center;
+
+    position: relative;
 }
 
+}
+.creationexamples img{
+    height:95%;
+    width:95%;
+    border-radius:50%;
+}
+
+/*
 .creationexamples{
     padding:5px;
     box-sizing:content-box;
 }
+*/
 
 .creationexamples h5{
     margin-top:7px;
     color:rgb(55, 151, 55);
 }
-
+/*
 @media screen and (max-width: 768px) {
   .creationexamples {
     margin:20px 0;
@@ -206,7 +240,9 @@ h1, h2, h3, h4, h5, h6,
                     }
 }
 
-/*company key points and awards */
+*/
+
+/* key company pointss */
 .testimonials-awards{
     padding:50px 0px;
 }
@@ -218,7 +254,7 @@ h1, h2, h3, h4, h5, h6,
     padding:50px 2em;
 }
 
-.testimonial-section .shadow-box{
+.shadow-box{
     width: 15em;
     height: 15em;
     margin:0 auto;
@@ -232,6 +268,7 @@ h1, h2, h3, h4, h5, h6,
 
     position: relative;
 }
+
 
 .testimonial-section img{
     height:95%;
