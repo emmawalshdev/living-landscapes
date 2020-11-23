@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6,
 
 
 .navbar-light .navbar-nav .active>.nav-link{
-    color: #967bb6;
+    color: #7853a5;
 }
 
 @media(min-width:992px){
@@ -75,6 +75,7 @@ h1, h2, h3, h4, h5, h6,
     position: relative;
 }
 
+
 /* btn styling */
 .btn--cta{
     background-color: rgb(55, 151, 55);
@@ -83,12 +84,12 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .btn--cta:hover{
-    background-color:rgb(150, 31, 130);
+    background-color:#7853a5;
     color:white;
 }
 
 .jumbotron{
-    background-color:transparent;
+    background-color: transparent;
 }
 
 .jumbotron h1{
@@ -318,7 +319,7 @@ h1, h2, h3, h4, h5, h6,
 /*about-hero-image-container */
 
 .about-hero-image-container{
-    background:url("/assets/images/about.png")no-repeat center center fixed;
+    background:url("/assets/images/hero-images/about-hero.png")no-repeat center center fixed;
     height:70vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -327,10 +328,15 @@ h1, h2, h3, h4, h5, h6,
 
     display:flex;
     align-items:center;
-    justify-content: center;
+    justify-content: left;
 
     position: relative;
 }
+
+.about-hero-image-container .jumbotron h1{
+    text-align:left;
+}
+
 
 /*about us - our services */
 
@@ -381,6 +387,26 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /*contact us */
+
+.contact-hero-image-container{
+    height:70vh;
+    background: url(/assets/images/hero-images/contact-hero.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display:flex;
+    align-items:center;
+    justify-content: left;
+
+    position: relative;
+}
+
+.contact-hero-image-container .jumbotron h1{
+    text-align:left;
+}
+
 .bg-color-contact{
     background-color:rgb(214, 214, 214);
 }
