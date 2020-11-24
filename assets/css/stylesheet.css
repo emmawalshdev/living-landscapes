@@ -338,7 +338,8 @@ h1, h2, h3, h4, h5, h6,
 */
 
 .awards-timeline{
-    padding: 50px;
+    padding-top: 50px;
+    padding-left:50px;
     /*margin-bottom:5px;*/
 }
 
@@ -363,12 +364,13 @@ h1, h2, h3, h4, h5, h6,
     display:block;
     background: url(/assets/images/logo/flowers.png)no-repeat;
     position:absolute;
-    top: 25%;
-    left: -55px;
+    top: 5%;
+    left: -50px;
 }
 
-.awards-item h5{
+.awards-item .awarding-body{
         text-align:left! important;
+        font-size:18px;
         padding:2px 0px;
         margin:4px 0px;
 }
