@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6,
 
 .navbar-light .navbar-nav .nav-link {
     color:rgb(22, 94, 22);
-    font-weight: bold;
+    font-size:19px;
     padding: 10px 15px;
 }
 
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6,
     text-align: center;
 }
 
-/*our creations homepage */
+/*our creations*/
 
 .our-creations-container{
     background-color:rgb(231, 231, 231);
@@ -129,21 +129,9 @@ h1, h2, h3, h4, h5, h6,
     padding:50px 30px;
 }
 
-.logo{
-    padding:20px;
-    margin:20px;
-    text-align: center;
-}
-
-.logo img{
-    width:240px;
-    height:80px;
-}
-
-.creationexamples img{
-    height:95%;
-    width:95%;
-    border-radius:50%;
+.creationexamples{
+    padding:30px;
+    /*box-sizing:content-box;*/
 }
 
 .shadow-box1{
@@ -167,41 +155,45 @@ h1, h2, h3, h4, h5, h6,
     border-radius:30%;
 }
 
-ul {
-    list-style-type: none;
+.creationexamples h5{
+    margin:20px 0px;
+    color:rgb(55, 151, 55);
+}
+
+/*
+.creationexamples img{
+    height:95%;
+    width:95%;
+    border-radius:50%;
+}
+*/
+
+.card{
+    border:0;
+    background-color: rgb(231, 231, 231);
+}
+
+.card ul {
+    /*list-style-type: none;*/
     padding:0;
     line-height: 28px;
 
-}
-
-.creationexamples{
-    padding:5px;
-    box-sizing:content-box;
 }
 
 .list-group-item{
     background-color:rgb(231, 231, 231);
 }
 
-.card{
-    border:0;
-    background-color: rgb(231, 231, 231);
-}
-.creationexamples h5{
-    margin-top:15px;
-    color:rgb(55, 151, 55);
-}
-
 .garden-desc{
     font-weight:700;
     font-style:italic;
 }
-
+/*
 @media(max-width: 989px) and (min-width:768px){
     .shadow-box1{
-    width: 14em;
-    height: 14em;
-}
+    width: 15em;
+    height: 15em;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -210,6 +202,7 @@ ul {
     margin-bottom:30px;
   }
 }
+*/
 
 /*.creationexamples p{
     height:90%;
@@ -359,6 +352,16 @@ ul {
     padding: 60px 0px;
 }
 
+.logo{
+    padding:20px;
+    margin:20px;
+    text-align: center;
+}
+
+.logo img{
+    width:240px;
+    height:80px;
+}
 .blurb-contact{
     padding:20px;
     margin:20px;
