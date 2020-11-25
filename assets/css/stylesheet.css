@@ -440,8 +440,6 @@ h1, h2, h3, h4, h5, h6,
 
 /* about us -our staff */
 
-
-
 .testimonial-section button{
     display:block;
 }
@@ -468,12 +466,13 @@ h1, h2, h3, h4, h5, h6,
 .test-box{
     min-height:210px;
     max-width:350px;
+    margin:auto;
 }
 
 @media(max-width: 1027px) and (min-width:768px){
 .test-box{
     height:290px;
-}
+    }
 }
 
 .team-member{
