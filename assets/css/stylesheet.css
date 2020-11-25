@@ -139,7 +139,7 @@ h1, h2, h3, h4, h5, h6,
     height: 17em;
     margin:0 auto;
     background-color: rgb(221, 230, 191);
-    border-radius:30%;
+    /*border-radius:30%;*/
     /*box-shadow: 0 0 0 3px rgba(55, 151, 55, 0.3);*/
 
     display:flex;
@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6,
 .creationexamples img{
     height:95%;
     width:95%;
-    border-radius:30%;
+    /*border-radius:30%;*/
 }
 
 .creationexamples h5{
@@ -409,6 +409,8 @@ h1, h2, h3, h4, h5, h6,
     color:#7853a5;
     text-decoration: none;
 }
+
+/* ---------------------------------about.html-------------------*/
 /*about-hero-image-container */
 
 .about-hero-image-container{
@@ -429,7 +431,6 @@ h1, h2, h3, h4, h5, h6,
 .about-hero-image-container .jumbotron h1{
     text-align:left;
 }
-
 
 /*about us - our services */
 
@@ -480,6 +481,8 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /*contact us */
+
+/*hero-banner*/
 
 .contact-hero-image-container{
     height:70vh;
