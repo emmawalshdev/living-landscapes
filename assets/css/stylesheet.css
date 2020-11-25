@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5, h6,
     color: #7853a5;
 }
 
-@media(min-width:992px){
+@media(min-width:1300px){
     .navbar{
         position: relative;
     }
