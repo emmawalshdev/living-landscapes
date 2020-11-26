@@ -214,11 +214,11 @@ h1, h2, h3, h4, h5, h6,
 
 
 .key-company-elements{
-    background-color: white;
+    background-color: rgba(224, 249, 209, 0.5);
     text-align:center;
-    margin:0 auto;
+    /*margin:0 auto;*/
     padding:50px 0px;
-    width: 95%;
+    margin: 50px 0px;
 }
 
 .key-icon{
@@ -228,6 +228,11 @@ h1, h2, h3, h4, h5, h6,
 
 .key-element{
     margin-bottom:20px;
+    padding: 0 3%;
+}
+
+.testimonials-awards-container{
+    margin:50px 0px;
 }
 
 /*testimonials-awards-section */
@@ -496,7 +501,7 @@ h1, h2, h3, h4, h5, h6,
     margin:20px 0px;
 }
 
-/*contact us */
+/*------------------------------------------ contact us ---------------------*/
 
 /*hero-banner*/
 
@@ -519,13 +524,15 @@ h1, h2, h3, h4, h5, h6,
     text-align:left;
 }
 
-.bg-color-contact{
+.contact-us-form-container{
+    margin:50px 0px;
     background-color:rgb(214, 214, 214);
 }
 
+
 .contact-form-format{
     margin:0 auto;
-    max-width:70%;
+    max-width:60%;
     padding-top:15px;
 }
 
