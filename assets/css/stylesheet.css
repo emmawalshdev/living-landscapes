@@ -444,6 +444,26 @@ h1, h2, h3, h4, h5, h6,
     display:block;
 }
 
+.bg-color1{
+    background-color: #3e9e3e;
+}
+
+.bg-color2{
+    background-color: #298f57;
+}
+
+.bg-color3{
+    background-color:#379781;
+}
+
+.bg-color4{
+    background-color:  #378997;
+}
+
+
+
+
+
 .progress{
     position:relative;
     height: 30px;
