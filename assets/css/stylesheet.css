@@ -135,8 +135,8 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .shadow-box1{
-    width: 17em;
-    height: 17em;
+    width: 16em;
+    height: 16em;
     margin:0 auto;
     background-color: rgb(221, 230, 191);
     /*border-radius:30%;*/
@@ -551,3 +551,13 @@ h1, h2, h3, h4, h5, h6,
     margin:35px 0;
     text-align: center;
 }
+
+.garden-awards-container{
+    margin-bottom:50px;
+}
+.garden-awards-container img{
+    height:95% !important;
+    width:95% !important;
+    border-radius:0;
+}
+
