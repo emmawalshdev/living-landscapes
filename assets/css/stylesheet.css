@@ -561,3 +561,11 @@ h1, h2, h3, h4, h5, h6,
     border-radius:0;
 }
 
+/*.garden-awards-container h6 {
+    margin: 20px 0px;
+    color: rgb(55, 151, 55);
+    font-weight:700;
+    */
+.badge-gold{
+    background-color: rgb(168, 149, 38);
+}
