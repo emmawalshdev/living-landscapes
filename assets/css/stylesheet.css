@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6,
     background-color: rgb(247 244 249);
     text-align:center;
     padding:50px 30px;
-   
+    margin-bottom: 50px;
 }
 
 .creationexamples{
@@ -140,7 +140,7 @@ h1, h2, h3, h4, h5, h6,
     width: 16em;
     height: 16em;
     margin:0 auto;
-    background-color: rgb(221, 230, 191);
+    background-color: rgba(61, 154, 42, 10%);
     /*border-radius:30%;*/
     /*box-shadow: 0 0 0 3px rgba(55, 151, 55, 0.3);*/
 
@@ -216,7 +216,7 @@ h1, h2, h3, h4, h5, h6,
 
 
 .key-company-elements{
-    background-color: rgba(224, 249, 209, 0.5);
+    background-color: rgba(156, 186, 167, 27%);
     text-align:center;
     /*margin:0 auto;*/
     padding:50px 0px;
@@ -264,7 +264,7 @@ h1, h2, h3, h4, h5, h6,
     width: 15em;
     height: 15em;
     margin:0 auto;
-    background-color: rgb(221, 230, 191);
+    background-color: rgba(61, 154, 42, 10%);
     border-radius:50%;
     /*box-shadow: 0 0 0 3px rgba(55, 151, 55, 0.3);*/
 
@@ -447,6 +447,10 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /* about us -our staff */
+
+.meet-the-team-container{
+    background-color: rgba(156, 186, 167, 27%)
+}
 
 .testimonial-section button{
     display:block;
