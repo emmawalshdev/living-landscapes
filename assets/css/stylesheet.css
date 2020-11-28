@@ -12,6 +12,10 @@ h1, h2, h3, h4, h5, h6,
     text-align: center;
 }
 
+h3.heading{
+    color:rgb(91, 92, 91);
+}
+
 /*navbar */
 .nav-container{
     padding:0;
@@ -486,6 +490,23 @@ h1, h2, h3, h4, h5, h6,
     text-align: center;
 }
 
+/*------------------------------------portfolio----------------------------------------*/
+
+.portfolio-hero-image-container{
+    background:url("/assets/images/hero-images/portb.png")no-repeat center center fixed;
+    height:70vh;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display:flex;
+    align-items:center;
+    justify-content: left;
+
+    position: relative;
+}
+
 .garden-awards-container{
     margin-bottom:50px;
 }
@@ -525,21 +546,5 @@ h1, h2, h3, h4, h5, h6,
     margin-bottom:20px;
 }
 }
-h3.heading{
-    color:rgb(91, 92, 91);
-}
 
-.portfolio-hero-image-container{
-    background:url("/assets/images/hero-images/portb.png")no-repeat center center fixed;
-    height:70vh;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 
-    display:flex;
-    align-items:center;
-    justify-content: left;
-
-    position: relative;
-}
