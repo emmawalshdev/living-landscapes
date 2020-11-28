@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&family=Roboto&display=swap');
 
+
 /*
     font-family: 'B612', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -124,9 +125,10 @@ h1, h2, h3, h4, h5, h6,
 /*our creations*/
 
 .our-creations-container{
-    background-color:rgb(231, 231, 231);
+    background-color: rgb(247 244 249);
     text-align:center;
     padding:50px 30px;
+   
 }
 
 .creationexamples{
@@ -181,7 +183,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .list-group-item{
-    background-color:rgb(231, 231, 231);
+    background-color:rgb(247 244 249);
 }
 
 .garden-desc{
@@ -242,19 +244,19 @@ h1, h2, h3, h4, h5, h6,
 */
 
 .testimonial-section{
-    background-color:rgb(214, 214, 214);
+    background-color:rgb(247, 244, 249);
     text-align:center;
    /* margin: 0 auto;*/
     padding:50px 20px; /*2em*/
 }
 
 .testimonial-card{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(226,216,234,27%);
     border-radius:5%;
     width: 95%;
     height:95%;
     padding: 30px 15px;
-    /*box-shadow: 0 0 0 3px rgba(55, 151, 55, 0.3);*/
+    box-shadow: 0 0 0 3px rgba(55, 151, 55, 8%);
     margin-top: 10px;
 }
 
@@ -302,7 +304,7 @@ h1, h2, h3, h4, h5, h6,
 /*awards section*/ 
 
 .awards-section{
-    background-color:rgb(231, 231, 231);
+    background-color: rgba(226, 216, 234, 27%);
     padding:50px 20px;
 }
 
@@ -582,4 +584,8 @@ h1, h2, h3, h4, h5, h6,
     max-width: 500px;
     margin: auto;
     margin-bottom:20px;
+}
+}
+h3.heading{
+    color:rgb(91, 92, 91);
 }
