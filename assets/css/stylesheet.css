@@ -561,7 +561,19 @@ h1, h2, h3, h4, h5, h6,
 .garden-awards-container{
     margin-bottom:50px;
 }
+
 .garden-awards-container img{
+    height:95% !important;
+    width:95% !important;
+    border-radius:0;
+}
+
+.recent-gardens-container{
+    margin-bottom:50px;
+    background-color:rgba(156, 186, 167, 27%);
+}
+
+.recent-gardens-container img{
     height:95% !important;
     width:95% !important;
     border-radius:0;
