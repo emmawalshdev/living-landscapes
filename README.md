@@ -195,8 +195,8 @@ The following changes were made to correct the code:
     * Within the contact form, the legend was replaced with a div.
 
 
-The validity of each page's CSS code was checked using [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
-
+The validity of the CSS code was checked using [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
+No errors were found.
 
 
 ----------------------------
