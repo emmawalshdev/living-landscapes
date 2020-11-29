@@ -296,12 +296,12 @@ h3.heading{
     background-color: rgba(224, 249, 209, 0.5);
     padding:60px 0px;
     margin-top:50px;
+    text-align:center;
 }
 
 .logo{
-    padding:20px;
-    margin:20px;
-    text-align: center;
+    width: 90%;
+    margin: 50px 0px;
 }
 
 .logo img{
@@ -309,13 +309,13 @@ h3.heading{
     height:80px;
 }
 .blurb-contact{
-    padding:20px;
-    margin:20px;
-    text-align: center;
+    width:95%;
+    margin: 50px 0px;
+    padding: 0px 30px;
 }
 
 .blurb-contact p{
-    line-height: 26px;
+    line-height: 28px;
 }
 
 .ahreflink{
@@ -323,11 +323,9 @@ h3.heading{
     color: black;
 }
 
-.social-link-group{
-    padding:20px;
-    margin:20px;
-    text-align: center;
-
+.social-link-section{
+    width:95%;
+    margin:50px 0px;
 }
 
 .icon{
