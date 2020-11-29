@@ -135,15 +135,15 @@ Fonts used are from ---
 
 ## Technology Used
 
-* HTML
-* CSS
-* Bootstap 4
-* Google Fonts
-* Adobe Photoshop
-* Font Awesome
-* Git
-* Github
-* Github Pages
+* HTML5 - Used for structuring the site pages
+* CSS - Used for styling the site pages
+* Bootstrap 4 - Framework used for building the site pages
+* Google Fonts - Used for typography
+* Adobe Photoshop - Used to resize and edit images
+* Font Awesome - Used for all Icons used
+* Git - Used for version control
+* Github - Used for respository hosting
+* Github Pages - Used for site deployment
 
 ----------------------------
 ## Testing
@@ -160,7 +160,7 @@ incliude testing grid for compatibility
 ----------------------------
 ## Deployment
 
-The website was hosted on Github Pages and deployed by:
+The website was hosted on Github Pages and deployed by carrying out the following steps:
 
 1. login into Github
 2. Select the respository from profile
@@ -172,10 +172,21 @@ The Live site deployed can be viewed on the following link: --
 ----------------------------
 ## Credits 
 
-### Code
+### Content
+All content was written and developed by me.
 
-### Contents
+### Code
+The following websites were used for inspiration and assistance:
+
+* [CSS Tricks](https://css-tricks.com/)
+* [Awwwards](https://www.awwwards.com/)
+* [Stack Overflow](https://stackoverflow.com/)
 
 ###  Media
+The images used on this site are royalty free and were obtained from the following websites:
+
+* [Unsplash](https://unsplash.com/)
+* [Pexels](https://www.pexels.com/de-de/)
+* [Pixabay](https://pixabay.com/de/)
 
 ### Acknowledgements
