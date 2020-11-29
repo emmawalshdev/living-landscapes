@@ -3,20 +3,18 @@
 ## User-Centric Frontend Development - Code Institute
 
 ## Living Landscapes
-This static website was created for the company Living Landscapes. 
+This static website was created for the company 'Living Landscapes'. 
 Living Landscapes is a fictitious landscaping company based in Clonakilty, in Co. Cork.  
+The company consists of 6 team members who provide 3 services, residential landscaping, commercial landscaping and garden maintenance. 
 
-The purpose of this website is to increase customer interaction, improve customer experience and build brand awareness. 
-The website showcases services offered, include a contact us form and include compnay information and a portfolio.
-The website includes 4 seperate web pages and is created using HTML and CSS. 
+The purpose of this website is to increase customer interaction, improve the customer experience and build brand awareness. 
+Important information and features to the company include: showcasing the services which they provide, listing information about the team, offering an online method of contacting the team and exhibiting past creations. 
 
 ----------------------------
 
 ## Contents
 1. UX(link later)
-    * Strategy (em)
     * Project Goals (em)
-    * Structure (em)
     * User Stories
     * Wireframes
     * Surface
@@ -45,14 +43,14 @@ The website includes 4 seperate web pages and is created using HTML and CSS.
 
 ## UX
 
-### Strategy
-
 ### Project Goals
 The goals of this website inlclude:
 * Increase Customer Interaction
 * Showcase previous work 
 * Build Brand awareness  
 * Improve customer experience
+
+The following table displays a breakdown of all opportunities/problems along with their importance and viability.
 
 | Opportunity/Problem           | Importance      | Viability     |
 |-------------------------------|-----------------|---------------|                                                            --|
@@ -64,29 +62,28 @@ The goals of this website inlclude:
 |                               | 22              | 20            |
 
 ### User Stories
-* As a prospective client, I would like to an 'about us' section, so that I can learn about the company, staff professional qualifications and company location. 
+* As a prospective client, I would like to find an 'about us' section on the website, so that I can learn about the company and it's staff so that I can understand what services are provided and if the staff are adequately qualified.
 
 * As a prospective client, I would like to be able to send an online enquiry, so that I can receive additional information.
 
-* As a new client, I would like to view a portfolio of past work, so that I can know what to expect.  
+* As a prospective client who would prefer to speak over the phone rather than email, I would like to be able to request a call-back to an online enquiry and clearly be able to view a telephone number and call-times.
 
-* As a new client who is knowledgeable in horticulture, I would like to see proof of the company are plant experts as this is what is important to me in garden design. 
+* As a prospective client, I would like to view a portfolio of past work, so that I can know what to expect.  
 
-* As a new client who is not knowledgeable in garden design, I would like to see what options are available to me so that I can descide if this compnay is for me or not. 
+* As a prospective client who is knowledgeable in horticulture, I would like to see proof that the company are plant experts as this is important to me in garden design. 
 
-* As a new user, I would like to see the process involed from consultation to design. 
-
-* As a new user, I would like to see the cost of a consultation so that I can determine if this is within my budget. 
+* As a prospective client who is not knowledgeable in garden design, I would like to see what options are available to me so that I can descide if this compnay is right for me.  
 
 * As an existing client and admirer of the company, I would like to be able to connect and follow the company through social media platforms, so that I build a connection with the brand.
 
 ### Project Scope
 
-Based on the user story findings, the following are features which will be inlcuded:
+Based on the above user stories, the following are features which will be inlcuded:
 * links to company social platforms
 * A contact us form
+* different contact us methods
 * An 'About Us' section
-* Information on previous creations 
+* Information on previous creations
 
 The following is a list of features which will not be included: 
 * Ecommerce functionality
@@ -94,26 +91,24 @@ The following is a list of features which will not be included:
 * A blog
 * Back-end site development
 
-### Structure
---
-
 ### Wireframes
-All wireframes were created using the software; Balsamiq. 
+All wireframes were created using the software [Balsamiq](www.balsamiq.com). Layouts were created following research on the five planes of UX and before coding. 
 
 **Desktop** 
-* [Home Page](assets/wireframes/home-desktop.png)
-* [About Us](/assets/wireframes/about-desktop.png)
-* [Contact Us](/assets/wireframes/contact-desktop.png)
+* [Home Page](assets/wireframes/desktop/dhome.png)
+* [About Us](/assets/wireframes/desktop/dabout.png)
+* [Portfolio](/assets/wireframes/desktop/dportfolio.png)
+* [Contact Us](/assets/wireframes/desktop/dcontact.png)
 
 **Tablet**
-* [Home Page](assets/wireframes/home-tablet.png)
-* [About Us](assets/wireframes/about-tablet.png)
-* [Contact Us](assets/wireframes/contact-tablet.png)
+* [Home Page](assets/wireframes/tablet/thome.png)
+* [About Us](assets/wireframes/tablet/tabout.png)
+* [Contact Us](assets/wireframes/tablet/tcontact.png)
 
 **Mobile**
-* [Home Page](assets/wireframes/home-mobile.png)
-* [About Us](assets/wireframes/about-mobile.png)
-* [Contact Us](assets/wireframes/contact-tablet.png)
+* [Home Page](assets/wireframes/mobile/mhome.png)
+* [About Us](assets/wireframes/mobile/mabout.png)
+* [Contact Us](assets/wireframes/mobile/mcontact.png)
 
 ### Surface
 Colour palette Used
