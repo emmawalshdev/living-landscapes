@@ -184,6 +184,18 @@ incliude testing grid for compatibility
 ### Responsiveness / Mobile Friendly
 
 ### W3C Validation
+The validity of each page's HTML code was checked using [The W3C Markup Validation Service](https://validator.w3.org/).
+The following changes were made to correct the code:
+
+* index.html
+    * Within the ul element, all h4 and a href elements were removed 
+    * within the navbar-toggler class button element, the aria-controls attribute was corrected.
+
+* contact.html
+    * Within the contact form, the legend was replaced with a div.
+
+
+The validity of each page's CSS code was checked using [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 
 
 
