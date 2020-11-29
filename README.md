@@ -147,6 +147,36 @@ Fonts used are from ---
 
 ----------------------------
 ## Testing
+
+### User Story Testing
+
+* As a prospective client, I would like to find an 'about us' section on the website, so that I can learn about the company and it's staff so that I can understand what services are provided and if the staff are adequately qualified.
+    * A dedicated 'About us' page has been created, which includes content on the company's mission,the services they provide and a detailed description on each team member and their skills.
+
+* As a prospective client, I would like to be able to send an online enquiry, so that I can receive additional information.
+    * An online enquiry form has been created within the 'Contact Us' section. Quick links to this page have been provided in the footer and in the header (hero image banner) of each page.
+
+* As a prospective client who would prefer to speak over the phone rather than email, I would like to be able to request a call-back to an online enquiry and clearly be able to view a telephone number and call-times.
+    * A preferred method of contact can be specified on the online enquiry form. The company's contact telephone number is also visable on the footer of each page. 
+
+* As a prospective client, I would like to view a portfolio of past work, so that I can know what to expect.  
+    * A 'Portfolio' page has been created which is separated into 'Award-Winning Gardens' and 'Our Recent Creations'. A variety of residential and commerical designs have been included to give a well-rounded representation of the company. 
+
+* As a prospective client who is knowledgeable in horticulture, I would like to see proof that the company are plant experts as this is important to me in garden design. 
+    * Portraying a strong message of plant knowledge was taken into consideration when creating every page. 
+    * The company is branded as 'plant-first landscapers'; a message which is portrayed in the footer and the header blurb of the website. 
+    * The skills of each team member lists their horticultural strengths.
+    * The content and imagery used in the 'Portfolio' section describes the planting designs in detail.
+
+
+* As a prospective client who is not knowledgeable in garden design, I would like to see what options are available to me so that I can decide if this company is right for me.  
+    * The overall services provided by the company are listed in the 'About Us' web page. 
+    * The company's past creations are viewable in the 'Portfolio' web page. This gives an in-depth overview of the standard which can be expected of the company. 
+
+* As an existing client and admirer of the company, I would like to be able to connect and follow the company through social media platforms, so that I build a connection with the brand.
+    * Quick links to the compnay's social media platforms are viewable on the footer of each page. 
+
+
 incliude testing grid for compatibility 
 
 ### Browsers
@@ -155,7 +185,7 @@ incliude testing grid for compatibility
 
 ### W3C Validation
 
-### User Story Testing
+
 
 ----------------------------
 ## Deployment
@@ -190,3 +220,4 @@ The images used on this site are royalty free and were obtained from the followi
 * [Pixabay](https://pixabay.com/de/)
 
 ### Acknowledgements
+I would like to thank my Code Institute mentor, Mark Railton for the support and encouragement on this project. 
