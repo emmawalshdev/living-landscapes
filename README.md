@@ -232,4 +232,4 @@ The images used on this site are royalty free and were obtained from the followi
 * [Pixabay](https://pixabay.com/de/)
 
 ### Acknowledgements
-I would like to thank my Code Institute mentor, Mark Railton for the support and encouragement on this project. 
+I would like to thank my Code Institute mentor, Mark Railton for his support and guidance throughout this project. 
