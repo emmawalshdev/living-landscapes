@@ -16,6 +16,7 @@ Important information and features to the company include: showcasing the servic
 1. UX(link later)
     * Project Goals (em)
     * User Stories
+    * Project Scope
     * Wireframes
     * Surface
 
