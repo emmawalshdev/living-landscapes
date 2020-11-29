@@ -58,7 +58,7 @@ h3.heading{
 
 .home-hero-image-container{
     height:70vh;
-    background: url("assets/images/hero-images/home-hero.png") no-repeat center center fixed; 
+    background: url(/assets/images/hero-images/home-hero.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -277,7 +277,7 @@ h3.heading{
     height:70px;
     width:70px;
     display:block;
-    background: url("asset/images/logo/flowers.png")no-repeat;
+    background: url(/assets/images/logo/flowers.png)no-repeat;
     position:absolute;
     top: 5%;
     left: -50px;
@@ -444,7 +444,7 @@ h3.heading{
 
 .contact-hero-image-container{
     height:70vh;
-    background: url("assets/images/hero-images/contact-hero.png") no-repeat center center fixed; 
+    background: url(/assets/images/hero-images/contact-hero.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -491,7 +491,7 @@ h3.heading{
 /*------------------------------------portfolio----------------------------------------*/
 
 .portfolio-hero-image-container{
-    background:url("assets/images/hero-images/portb.png")no-repeat center center fixed;
+    background:url("/assets/images/hero-images/portb.png")no-repeat center center fixed;
     height:70vh;
     -webkit-background-size: cover;
     -moz-background-size: cover;
