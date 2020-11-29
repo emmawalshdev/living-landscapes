@@ -58,7 +58,7 @@ h3.heading{
 
 .home-hero-image-container{
     height:70vh;
-    background: url(/assets/images/hero-images/home-hero.png) no-repeat center center fixed; 
+    background: url(assets/images/hero-images/home-hero.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
