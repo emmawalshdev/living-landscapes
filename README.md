@@ -94,7 +94,7 @@ The following is a list of features which will not be included:
 
 ### Wireframes
 All wireframes were created using the software [Balsamiq](www.balsamiq.com). Layouts were created following research on the five planes of UX and before coding. 
-
+Please note, the final website layout contains slight variations to the original wireframes. 
 **Desktop** 
 * [Home Page](assets/wireframes/desktop/dhome.png)
 * [About Us](/assets/wireframes/desktop/dabout.png)
@@ -125,11 +125,43 @@ Fonts used are from ---
 
 ### Existing Features 
 * **Navigation** 
-* **Contact Us**
+    * The navigation contains 4 links and the brand logo, which is an anchor tag linked to the homepage. 
+      The pages are ordered to create a walk-through experience (Home -> About -> Portfolio -> Contact Us)
+      This feature was created with the aid of Bootstrap 4 and styled in with custom CSS. 
+
+* **Contact Us Form**
+    * The contact form includes the necessary information required by the team. 
+      Several of the fields are required and the user will be alerted by a message and color if they have missed a field. 
+      This feature was created using a Bootstrap 4 form and JavaScript script.
+
+* **Meet the team**
+    * All staff memebers are featured in the 'About' section. 
+      In addition to a text paragraph, a Bootstrap progress bar group is featured to exhibit the employees key skills. 
+
+* **About the company**
+    * The company's mission is found on the 'About' section in a prime location just under the hero image. 
+      The services offered by the company are also featured here. A Bootstrap 4 card is used to feature details on each service. 
+
+* **Testimonials**
+
+* **Portfolio**
+    * Within the Portfolio page, award-winning garden designs are displayed seperately and include a gold-badge which shows the year the award was acheived. 
+    * The company's recent creations are featured underneath, using an identical layout.
+      
+
+* **Footer**
+    * The brand logo is features on the Left.
+    * Quick contact links are included in the footer center.
+    * Social media links are visable on the right.
 
 ### Features Left to Implement
-* back-end development - purpose
-* maps
+Due to project scope, the following features were note implemented in this release. These include:
+
+* Back-end development - Server side development is required for functionality of the contact us form. 
+
+* Maps Integration - I would like to Integrate maps into the website, for an added visual reference.  
+
+* Image Carousel - I would like to include an image carousel feature for the indidual creation in the 'Portfolio' page. 
 
 ----------------------------
 
@@ -185,9 +217,9 @@ incliude testing grid for compatibility
 
 ### W3C Validation
 The validity of each page's HTML code was checked using [The W3C Markup Validation Service](https://validator.w3.org/).
-The following changes were made to correct the code:
+The following code changes were made to satisy the validator:
 
-* index.html
+* In index.html
     * Within the ul element, all h4 and a href elements were removed 
     * within the navbar-toggler class button element, the aria-controls attribute was corrected.
 
@@ -200,18 +232,27 @@ No errors were found.
 
 
 ----------------------------
+
 ## Deployment
 
-The website was hosted on Github Pages and deployed by carrying out the following steps:
+The website was hosted on Github Pages. It was deployed by carrying out the following steps:
 
 1. login into Github
 2. Select the respository from profile
 3. go to 'settings' in respo
-4. In 'Github Pages' choose 'Master Branch' as Source. 
+4. In 'Github Pages' choose 'Master Branch' as Source and save.
 
-The Live site deployed can be viewed on the following link: --
+The Live site deployed can be viewed on the following link: [Living Landscapes](https://emmahartedev.github.io/living-landscapes/)
+
+### Local
+To run locally, the following steps can be followed:
+
+1. Visit the following Github repository [Github - Living Landscapes](https://github.com/emmahartedev/living-landscapes).
+2. Clone or download the repository to an editor of your choice.
+3. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 
 ----------------------------
+
 ## Credits 
 
 ### Content
