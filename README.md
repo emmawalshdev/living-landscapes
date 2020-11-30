@@ -192,23 +192,33 @@ Due to project scope, the following features were note implemented in this relea
 
 * As a prospective client, I would like to be able to send an online enquiry, so that I can receive additional information.
     * An online enquiry form has been created within the 'Contact Us' section. This has been created to be very easy-to-use, with integrated invalid messages prompted to appear if the user  has missed a required field. 
-     Quick links to the 'Contact Us' page have also been  included in the footer and in the header (hero image banner CTA) of each page. By encouraging the user to contact the company in many ways, a strong approachable message is conveyed. 
+     * Quick links to the 'Contact Us' page have also been  included in the footer and in the header (hero image banner CTA) of each page. 
+     * By encouraging the user to contact the company in many ways, a strong approachable message is conveyed. 
 
 * As a prospective client who would prefer to speak over the phone rather than email, I would like to be able to request a call-back to an online enquiry and clearly be able to view a telephone number and call-times.
-    * A preferred method of contact can be specified on the online enquiry form. The company's contact telephone number is also visable on the footer of each page. 
+    * A preferred method of contact can be specified on the online enquiry form. 
+    * The company's contact telephone number is also visable on the footer of each page.
+    * The compnay's contact telephone number with the message 'Want To Chat? So Do We!' is displayed on the 'Home' & 'Contact Us' page. 
 
 * As a prospective client, I would like to view a portfolio of past work, so that I can know what to expect.  
-    * A 'Portfolio' page has been created which is separated into 'Award-Winning Gardens' and 'Our Recent Creations'. A variety of residential and commerical designs have been included to give a well-rounded representation of the company. 
+    * A dedicated Portfolio' page has been created.
+    * 'Award-Winning Gardens' are displayed first, showing the company's greatest acheivements.
+    * 'Our Recent Creations' shows an additional six garden designs with a date and discription included. 
+    * A variety of residential and commerical designs have been included to give a well-rounded representation of the company. 
+    * A CTA on the hero image banner enourages the user to contact the compnay if they have any additional questions. 
 
 * As a prospective client who is knowledgeable in horticulture, I would like to see proof that the company are plant experts as this is important to me in garden design. 
     * Portraying a strong message of plant knowledge was taken into consideration when creating every page. 
-    * The company is branded as 'plant-first landscapers'; a message which is portrayed in the footer and the header blurb of the website. 
-    * The skills of each team member lists their horticultural strengths.
-    * The content and imagery used in the 'Portfolio' section describes the planting designs in detail.
+    * The company is branded as 'plant-first landscapers'; a message which is portrayed in the footer and the header blurb (under-neath the hero image banner) of pages. 
+    * In the 'About' page, the user can learn about the employeees and their skills which are displayed using progress bars. 
+    * In each creation listed on the 'Portfolio' page, all horticultural aspects of the projects are described. 
 
 * As a prospective client who is not knowledgeable in garden design, I would like to see what options are available to me so that I can decide if this company is right for me.  
-    * The overall services provided by the company are listed in the 'About Us' web page. 
-    * The company's past creations are viewable in the 'Portfolio' web page. This gives an in-depth overview of the standard which can be expected of the company. 
+    * All services provided by the company are listed in the 'About Us' web page. 
+    * All services provided and company description are included on the footer of each page. 
+    * The company's past creations are viewable in the 'Portfolio' page. This gives an in-depth overview of the standard of work which can be expected. 
+    * Testimonials are viewable on the 'Home' page, which give positive feedback on the company, showcasing how approachable the company is. 
+    
 
 * As an existing client and admirer of the company, I would like to be able to connect and follow the company through social media platforms, so that I build a connection with the brand.
     * Quick links to the compnay's social media platforms are viewable on the footer of each page. 
@@ -218,6 +228,8 @@ incliude testing grid for compatibility
 
 ### Browsers
 
+The site's reponsiveness was continuously monitored during the development stage using Chromes Dev Tools. Further testing was done using Responsive Test Tool which allowed for testing on additional devices.
+Responsiveness was also tested using the Lambdatest App.
 ### Responsiveness / Mobile Friendly
 
 ### W3C Validation
