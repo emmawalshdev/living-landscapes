@@ -244,9 +244,11 @@ h3.heading{
 }
 
 .testimonial-card p{
-    font-size: 14px;
-    line-height:24px;
+    font-size: 95%;
+    line-height:25px;
 }
+
+
 
 /*awards section*/ 
 
@@ -277,7 +279,7 @@ h3.heading{
     height:70px;
     width:70px;
     display:block;
-    background: url(/assets/images/logo/flowers.png)no-repeat;
+    background: url("../images/misc/flowers.png")no-repeat;
     position:absolute;
     top: 5%;
     left: -50px;
