@@ -112,12 +112,16 @@ Please note, the final website layout contains slight variations to the original
 * [Contact Us](assets/wireframes/mobile/mcontact.png)
 
 ### Surface
-Colour palette Used
+A two color palette of green and purple was used, which took inspiration from the company logo. 
+This was included in background colors, font & hover elements.
 
-Fonts used are from ---
-*
-*
-*
+All fonts used are from Google fonts [Google Fonts ](https://fonts.google.com/). 
+
+These include
+
+* B612 - used for all headings (h1 - h6)
+* Roboto - used for other all body text
+
 
 ----------------------------
 
@@ -143,11 +147,11 @@ Fonts used are from ---
       The services offered by the company are also featured here. A Bootstrap 4 card is used to feature details on each service. 
 
 * **Testimonials**
+    * a Bootstrap 4 card is used to hold the testimonial contents. This includes the clients image, quotation and client details.
 
 * **Portfolio**
     * Within the Portfolio page, award-winning garden designs are displayed seperately and include a gold-badge which shows the year the award was acheived. 
     * The company's recent creations are featured underneath, using an identical layout.
-      
 
 * **Footer**
     * The brand logo is features on the Left.
@@ -183,10 +187,12 @@ Due to project scope, the following features were note implemented in this relea
 ### User Story Testing
 
 * As a prospective client, I would like to find an 'about us' section on the website, so that I can learn about the company and it's staff so that I can understand what services are provided and if the staff are adequately qualified.
-    * A dedicated 'About us' page has been created, which includes content on the company's mission,the services they provide and a detailed description on each team member and their skills.
+    * A dedicated 'About' page has been created, which includes content on the company's mission,the services they provide and a detailed description on each team member and their skills.
+    * The company's services are also viewable on the 'About' page. Within the footer, quick contact-us links have been provided to encourage the user to get in touch with any queries. 
 
 * As a prospective client, I would like to be able to send an online enquiry, so that I can receive additional information.
-    * An online enquiry form has been created within the 'Contact Us' section. Quick links to this page have been provided in the footer and in the header (hero image banner) of each page.
+    * An online enquiry form has been created within the 'Contact Us' section. This has been created to be very easy-to-use, with integrated invalid messages prompted to appear if the user  has missed a required field. 
+     Quick links to the 'Contact Us' page have also been  included in the footer and in the header (hero image banner CTA) of each page. By encouraging the user to contact the company in many ways, a strong approachable message is conveyed. 
 
 * As a prospective client who would prefer to speak over the phone rather than email, I would like to be able to request a call-back to an online enquiry and clearly be able to view a telephone number and call-times.
     * A preferred method of contact can be specified on the online enquiry form. The company's contact telephone number is also visable on the footer of each page. 
@@ -199,7 +205,6 @@ Due to project scope, the following features were note implemented in this relea
     * The company is branded as 'plant-first landscapers'; a message which is portrayed in the footer and the header blurb of the website. 
     * The skills of each team member lists their horticultural strengths.
     * The content and imagery used in the 'Portfolio' section describes the planting designs in detail.
-
 
 * As a prospective client who is not knowledgeable in garden design, I would like to see what options are available to me so that I can decide if this company is right for me.  
     * The overall services provided by the company are listed in the 'About Us' web page. 
