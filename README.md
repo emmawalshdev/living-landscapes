@@ -287,21 +287,25 @@ The following user storied defined in the [UX section of README.md]()were re-exa
 As stated by [w3schools](https://www.w3schools.com/browsers/), the most used popular browsers in October 2020 are:
 
 1. Chrome (80.4 %)
-2. Edge/IE (5.2 %)
+2. Edge (5.2 %)
 3. Firefox (7.1 %)
 4. Safari (3.7 %)
+
+[Cross Browser Testing](https://crossbrowsertesting.com/) was used to access the quality of the website on the above four browsers.
+During testing, a bug which affected all links was discovered and this is described in the [bugs section]().
+
 
 ### Responsiveness
 The website's reponsiveness was continuously monitored, throughout the development of this project using Chromes Dev Tools.
 [Lighthouse]() was used to generate a report on the qulity of the website.
 
+The below image shows a screenshot of the lighthouse report for mobile.
 ![Lighthouse](assets/images/misc/lighthouse1.jpg)
 
 The following actions were taken to improve performance:
 
 * All images are converted to png format.  
 * custom sized banner images are created for mobile devices. 
-
 
 The following actions were taken to improve best practices:
 * 'rel="noopener"' was added to all external links to improve performance and prevent security vulnerabilities
@@ -314,6 +318,9 @@ The following actions were taken to improve SEO:
 The changes made can be seen to have made an improvement in the following Lighthouse screenshot:
 ![Lighthouse Image - After](assets/images/misc/lighthouse2.jpg)
 
+
+The changes also made a positive impact on the Desktop devices
+![Lighthouse Image - After Desktop](assets/images/misc/lighthouse-desktop.jpg)
 
 Further testing was done using Responsive Test Tool which allowed for testing on additional devices.
 Responsiveness was also tested using the Lambdatest App.
@@ -334,6 +341,12 @@ The following code changes were made to satisy the validator:
 
 The validity of the CSS code was checked using [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 No errors were found.
+
+### bugs
+
+pathways working in local site but not displaying a 404 in deployed github pages.
+original pathways: <a href="contact.html" target="_blank"></a>
+creating a 404
 
 
 ----------------------------
