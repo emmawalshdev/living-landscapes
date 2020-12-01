@@ -2,11 +2,11 @@
 
 ## User-Centric Frontend Development 
 
-![Living Landscapes Logo](images/logo/footer_logo.png)
+![Living Landscapes Logo](assets/images/logo/footer_logo.png)
 
 ## Living Landscapes - [Live Site](https://emmahartedev.github.io/living-landscapes/)
 
-![Generated from Am I Responsive](images/misc/responsive.png)
+![Generated from Am I Responsive](assets/images/misc/responsive.png)
 
 Living Landscapes is a fictitious landscaping company based in Clonakilty, in Co. Cork.  
 The company consists of 6 team members who provide 3 services, residential landscaping, commercial landscaping and garden maintenance. 
@@ -66,7 +66,7 @@ The goals of this website inlclude:
 
 The following table displays a breakdown of all opportunities/problems along with their importance and viability.
 
-![Opportunity/Problem table](images/misc/importvia.jpg)
+![Opportunity/Problem table](assets/images/misc/importvia.jpg)
 
 
 ### User Stories
@@ -284,25 +284,36 @@ The following user storied defined in the [UX section of README.md]()were re-exa
     * Awards acheived are diplayed on the hompage, with images of the projects visable on the 'Portfolio' page. 
 
 ### Browser compatibility
-    
+As stated by [w3schools](https://www.w3schools.com/browsers/), the most used popular browsers in October 2020 are:
+
+1. Chrome (80.4 %)
+2. Edge/IE (5.2 %)
+3. Firefox (7.1 %)
+4. Safari (3.7 %)
+
+### Responsiveness
 The website's reponsiveness was continuously monitored, throughout the development of this project using Chromes Dev Tools.
 [Lighthouse]() was used to generate a report on the qulity of the website.
 
 ![Lighthouse](assets/images/misc/lighthouse1.jpg)
 
 The following actions were taken to improve performance:
-* All images will be converted to png format. 
-* All image elements will be geiven a defined width and height. 
-* custom sized banner images will be created for mobile devices. 
 
+* All images are converted to png format.  
+* custom sized banner images are created for mobile devices. 
 
 
 The following actions were taken to improve best practices:
-* Add `rel="noopener"` or `rel="noreferrer"` to any external links to improve performance and prevent security vulnerabilities
-* remove un-used classes.
+* 'rel="noopener"' was added to all external links to improve performance and prevent security vulnerabilities
+* All un-used classes are removed.
+* increase color contrast of colours.
 
 The following actions were taken to improve SEO:
-* Document does not have a meta description
+* Meta description was added to all html pages.
+
+The changes made can be seen to have made an improvement in the following Lighthouse screenshot:
+![Lighthouse Image - After](assets/images/misc/lighthouse2.jpg)
+
 
 Further testing was done using Responsive Test Tool which allowed for testing on additional devices.
 Responsiveness was also tested using the Lambdatest App.
