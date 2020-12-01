@@ -291,10 +291,11 @@ The website's reponsiveness was continuously monitored, throughout the developme
 ![Lighthouse](assets/images/misc/lighthouse1.jpg)
 
 The following actions were taken to improve performance:
-* Serve images in JPEFG 2000 format
-* Image elements do not have explicit width and height
-Further testing was done using Responsive Test Tool which allowed for testing on additional devices.
-Responsiveness was also tested using the Lambdatest App.
+* All images will be converted to png format. 
+* All image elements will be geiven a defined width and height. 
+* custom sized banner images will be created for mobile devices. 
+
+
 
 The following actions were taken to improve best practices:
 * Add `rel="noopener"` or `rel="noreferrer"` to any external links to improve performance and prevent security vulnerabilities
@@ -302,6 +303,8 @@ The following actions were taken to improve best practices:
 The following actions were taken to improve SEO:
 * Document does not have a meta description
 
+Further testing was done using Responsive Test Tool which allowed for testing on additional devices.
+Responsiveness was also tested using the Lambdatest App.
 ### Responsiveness / Mobile Friendly
 
 
