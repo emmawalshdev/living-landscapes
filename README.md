@@ -6,6 +6,8 @@
 
 ## Living Landscapes - [Live Site](https://emmahartedev.github.io/living-landscapes/)
 
+![Generated from Am I Responsive](images/misc/responsive.png)
+
 Living Landscapes is a fictitious landscaping company based in Clonakilty, in Co. Cork.  
 The company consists of 6 team members who provide 3 services, residential landscaping, commercial landscaping and garden maintenance. 
 
@@ -218,10 +220,13 @@ These include:
 
 * Github Pages - Used for site deployment
 
+* Chrome Dev tools- Used for the monitoring the Responsiveness of the website
+
 ----------------------------
 ## Testing
 
 ### User Story Testing
+The following user storied defined in the [UX section of README.md]()were re-examined to ensure bith the customer's and client's needs were satified.
 
 #### Clients Stories
 
@@ -278,14 +283,27 @@ These include:
 * As the CEO, I want all of our acheivements and past creations to be featured online. 
     * Awards acheived are diplayed on the hompage, with images of the projects visable on the 'Portfolio' page. 
 
-
-    include testing grid for compatibility 
-### Browsers
+### Browser compatibility
     
-The website's reponsiveness was continuously monitored , throughout the development stage of this project using Chromes Dev Tools.
+The website's reponsiveness was continuously monitored, throughout the development of this project using Chromes Dev Tools.
+[Lighthouse]() was used to generate a report on the qulity of the website.
+
+![Lighthouse](assets/images/misc/lighthouse1.jpg)
+
+The following actions were taken to improve performance:
+* Serve images in JPEFG 2000 format
+* Image elements do not have explicit width and height
 Further testing was done using Responsive Test Tool which allowed for testing on additional devices.
 Responsiveness was also tested using the Lambdatest App.
+
+The following actions were taken to improve best practices:
+* Add `rel="noopener"` or `rel="noreferrer"` to any external links to improve performance and prevent security vulnerabilities
+
+The following actions were taken to improve SEO:
+* Document does not have a meta description
+
 ### Responsiveness / Mobile Friendly
+
 
 ### W3C Validation
 The validity of each page's HTML code was checked using [The W3C Markup Validation Service](https://validator.w3.org/).
