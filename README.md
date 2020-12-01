@@ -299,6 +299,7 @@ The following actions were taken to improve performance:
 
 The following actions were taken to improve best practices:
 * Add `rel="noopener"` or `rel="noreferrer"` to any external links to improve performance and prevent security vulnerabilities
+* remove un-used classes.
 
 The following actions were taken to improve SEO:
 * Document does not have a meta description
