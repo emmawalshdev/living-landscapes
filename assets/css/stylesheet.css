@@ -27,7 +27,7 @@ h3.heading{
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color:rgb(22, 94, 22);
+    color:rgb(61 107 61);
     font-size:19px;
     padding: 10px 15px;
 }
@@ -80,7 +80,7 @@ h3.heading{
 
 /* btn styling */
 .btn--cta{
-    background-color: rgb(39, 131, 39);
+    background-color: rgb(61, 107, 61);
     color:white;
     margin:0 auto;
 }
@@ -124,7 +124,7 @@ h3.heading{
 /*our creations*/
 
 .our-creations-container{
-    background-color: rgb(247 244 249);
+    background-color: rgb(247, 244, 249);
     text-align:center;
     padding:50px 30px;
     margin-bottom: 50px;
@@ -154,7 +154,7 @@ h3.heading{
 
 .creationexamples h5{
     margin:20px 0px;
-    color:rgb(39, 131, 39);
+    color:rgb(61, 107, 61);
 }
 
 .card{
@@ -340,7 +340,7 @@ h3.heading{
     height:50px;
     width:50px;
     font-size:32px;
-    color:rgb(39, 131, 39);
+    color:rgb(61, 107, 61);
     margin-top:20px;
 }
 
@@ -351,7 +351,7 @@ h3.heading{
 .footer-title-text{
     font-family: 'B612', sans-serif;
     font-weight:bold;
-    color:rgb(39, 131, 39);
+    color:rgb(61, 107, 61);
     text-decoration: none;
 }
 
