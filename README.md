@@ -1,14 +1,25 @@
-# Milestone One
+# Code Institute - Milestone One
 
-## User-Centric Frontend Development - Code Institute
+## User-Centric Frontend Development 
 
-## Living Landscapes
-This static website was created for the company 'Living Landscapes'. 
+![Living Landscapes Logo](images/logo/footer_logo.png)
+
+## Living Landscapes - [Live Site](https://emmahartedev.github.io/living-landscapes/)
+
 Living Landscapes is a fictitious landscaping company based in Clonakilty, in Co. Cork.  
 The company consists of 6 team members who provide 3 services, residential landscaping, commercial landscaping and garden maintenance. 
 
-The purpose of this website is to increase customer interaction, improve the customer experience and build brand awareness. 
-Important information and features to the company include: showcasing the services which they provide, listing information about the team, offering an online method of contacting the team and exhibiting past creations. 
+The company was founded in 2011 and has experienced significant growth in the last 5 years. 
+With this is mind, the purpose of this website is to increase customer interaction, improve the customer experience and build brand awareness. 
+
+Important information and features to the company include: 
+
+* Utilising the brand colors, purple and green.
+* Displaying the company's services.
+* Conveying a strong message of excellent customer service.
+* Listing information about the team and company.
+* Offering an online method of contacting the team.
+* Exhibiting past creations. 
 
 ----------------------------
 
@@ -46,23 +57,26 @@ Important information and features to the company include: showcasing the servic
 
 ### Project Goals
 The goals of this website inlclude:
-* Increase Customer Interaction
+* Increase customer Interaction
 * Showcase previous work 
 * Build Brand awareness  
 * Improve customer experience
 
 The following table displays a breakdown of all opportunities/problems along with their importance and viability.
 
-| Opportunity/Problem           | Importance      | Viability     |
-|-------------------------------|-----------------|---------------|                                                            --|
-| Increase customer interaction | 5               | 5             |
+| Opportunity/Problem| Importance| Viability|
+|-------------------------------|------------|-----|                                                            --|
+| Increase customer interaction| 5| 5|
 | Showcase previous work        | 4               | 4             |
 | Build Brand awareness         | 5               | 4             |
 | Become an industry leader     | 4               | 1             |
 | Improve customer experience   | 4               | 5             |
 |                               | 22              | 20            |
 
+
 ### User Stories
+
+#### Client stories
 * As a prospective client, I would like to find an 'about us' section on the website, so that I can learn about the company and it's staff so that I can understand what services are provided and if the staff are adequately qualified.
 
 * As a prospective client, I would like to be able to send an online enquiry, so that I can receive additional information.
@@ -77,24 +91,39 @@ The following table displays a breakdown of all opportunities/problems along wit
 
 * As an existing client and admirer of the company, I would like to be able to connect and follow the company through social media platforms, so that I build a connection with the brand.
 
-### Project Scope
+#### Buisiness stories
 
+* As a team member, I want to see my skills and strengths clearly defined in an 'About' section so that our clients will know I'm qualified.
+
+* As a team member who deals with enquiries, I want to to know the user's name, phone number and email address so that I can get in contact with them.
+
+* As a designer, I do not want prices to be posted online as quotes differ greatly dependending on the project and I really need to talk to the client first.
+
+* As the CEO, I want all of our acheivements and past creations to be featured online. 
+
+### Project Scope
 Based on the above user stories, the following are features which will be inlcuded:
-* links to company social platforms
-* A contact us form
-* different contact us methods
-* An 'About Us' section
-* Information on previous creations
+
+* links to company social platforms.
+* A contact us form with an option to specify preferred method of contact.
+* An 'About Us' section which will feature information about the team, company and services offered.
+* A portfolio section which will contain examples of previous work.
 
 The following is a list of features which will not be included: 
-* Ecommerce functionality
-* Social media as an extention of the business
-* A blog
-* Back-end site development
+
+* Ecommerce functionality.
+* Social media as an extention of the business.
+* A blog.
+* Back-end site development.
+* extensive content/imagery on portfolio examples.
 
 ### Wireframes
-All wireframes were created using the software [Balsamiq](www.balsamiq.com). Layouts were created following research on the five planes of UX and before coding. 
-Please note, the final website layout contains slight variations to the original wireframes. 
+All wireframes were created using the software [Balsamiq](www.balsamiq.com). 
+Layouts were created following research on the five planes of UX and before coding. 
+<strong>
+Please note, the final website layout contains slight variations to the original wireframes.
+</strong>
+
 **Desktop** 
 * [Home Page](assets/wireframes/desktop/dhome.png)
 * [About Us](/assets/wireframes/desktop/dabout.png)
@@ -111,14 +140,14 @@ Please note, the final website layout contains slight variations to the original
 * [About Us](assets/wireframes/mobile/mabout.png)
 * [Contact Us](assets/wireframes/mobile/mcontact.png)
 
+
 ### Surface
 A two color palette of green and purple was used, which took inspiration from the company logo. 
 This was included in background colors, font & hover elements.
 
 All fonts used are from Google fonts [Google Fonts ](https://fonts.google.com/). 
 
-These include
-
+Fonts used include:
 * B612 - used for all headings (h1 - h6)
 * Roboto - used for other all body text
 
@@ -129,38 +158,45 @@ These include
 
 ### Existing Features 
 * **Navigation** 
-    * The navigation contains 4 links and the brand logo, which is an anchor tag linked to the homepage. 
-      The pages are ordered to create a walk-through experience (Home -> About -> Portfolio -> Contact Us)
-      This feature was created with the aid of Bootstrap 4 and styled in with custom CSS. 
+    * The navigation contains the brand logo and four links which lead to 4 seperate pages. 
+    * The brand logo is an anchor tag, which is linked to the homepage. 
+    *  The pages are ordered to create a walk-through experience (Home > About > Portfolio > Contact Us)
+    *  For mobile devices, the navbar is designed to collapse.
+    *  This feature was created with the aid of Bootstrap 4 and styled in with custom CSS. 
 
 * **Contact Us Form**
     * The contact form includes the necessary information required by the team. 
-      Several of the fields are required and the user will be alerted by a message and color if they have missed a field. 
-      This feature was created using a Bootstrap 4 form and JavaScript script.
+    *  Several of the fields are required and the user will be alerted by a message if a required field has not been filled in. 
+    *  This feature was created using a Bootstrap 4 form and JavaScript.
 
-* **Meet the team**
+* **Meet the Team**
     * All staff memebers are featured in the 'About' section. 
-      In addition to a text paragraph, a Bootstrap progress bar group is featured to exhibit the employees key skills. 
+    * In addition to a text paragraph, Bootstrap 4 progress-bars are used to exhibit the employees key skills. 
 
-* **About the company**
-    * The company's mission is found on the 'About' section in a prime location just under the hero image. 
-      The services offered by the company are also featured here. A Bootstrap 4 card is used to feature details on each service. 
+* **About the Company**
+    * The company's mission is found on the 'About' section, in a prime location just under the hero image. 
+    * The services offered by the company are also included here. 
+    * A Bootstrap 4 card is used to feature details on each service. 
 
 * **Testimonials**
-    * a Bootstrap 4 card is used to hold the testimonial contents. This includes the clients image, quotation and client details.
+    * Testimonials are included on the 'Home' page.
+    * Content includes the client's image, quotation and client details
+    * A Bootstrap 4 card is used to hold the testimonial content. 
+   
 
 * **Portfolio**
-    * Within the Portfolio page, award-winning garden designs are displayed seperately and include a gold-badge which shows the year the award was acheived. 
+    * Within the Portfolio page, award-winning garden designs are displayed seperately and include a gold-badge which shows the year in which the award was acheived. 
     * The company's recent creations are featured underneath, using an identical layout.
 
 * **Footer**
-    * The brand logo is features on the Left.
+    * The brand logo is features on the footer left.
     * Quick contact links are included in the footer center.
-    * Social media links are visable on the right.
+    * Social media links are visable on the footer right.
 
 ### Features Left to Implement
-Due to project scope, the following features were note implemented in this release. These include:
+Due to project scope, the following features were note implemented in this release. 
 
+These include:
 * Back-end development - Server side development is required for functionality of the contact us form. 
 
 * Maps Integration - I would like to Integrate maps into the website, for an added visual reference.  
@@ -172,19 +208,29 @@ Due to project scope, the following features were note implemented in this relea
 ## Technology Used
 
 * HTML5 - Used for structuring the site pages
+
 * CSS - Used for styling the site pages
+
 * Bootstrap 4 - Framework used for building the site pages
+
 * Google Fonts - Used for typography
+
 * Adobe Photoshop - Used to resize and edit images
+
 * Font Awesome - Used for all Icons used
+
 * Git - Used for version control
+
 * Github - Used for respository hosting
+
 * Github Pages - Used for site deployment
 
 ----------------------------
 ## Testing
 
 ### User Story Testing
+
+#### Clients Stories
 
 * As a prospective client, I would like to find an 'about us' section on the website, so that I can learn about the company and it's staff so that I can understand what services are provided and if the staff are adequately qualified.
     * A dedicated 'About' page has been created, which includes content on the company's mission,the services they provide and a detailed description on each team member and their skills.
@@ -224,10 +270,25 @@ Due to project scope, the following features were note implemented in this relea
     * Quick links to the compnay's social media platforms are viewable on the footer of each page. 
 
 
-incliude testing grid for compatibility 
+#### Buisiness Stories
 
+* As a team member, I want to see my skills and strengths clearly defined in an 'About' section so that our clients will know I'm qualified.
+    *
+    *
+
+* As a team member who deals with enquiries, I want to to know the user's name, phone number and email address so that I can get in contact with them.
+    *
+    *
+
+* As a designer, I do not want prices to be posted online as quotes differ greatly dependending on the project and I really need to talk to the client first.
+    *
+    *
+
+* As the CEO, I want all of our acheivements and past creations to be featured online. 
+include testing grid for compatibility 
+    *
 ### Browsers
-
+    
 The site's reponsiveness was continuously monitored during the development stage using Chromes Dev Tools. Further testing was done using Responsive Test Tool which allowed for testing on additional devices.
 Responsiveness was also tested using the Lambdatest App.
 ### Responsiveness / Mobile Friendly
