@@ -295,7 +295,7 @@ As stated by [w3schools](https://www.w3schools.com/browsers/), the most used pop
 During testing, a bug which affected all links was discovered and this is described in the [bugs section]().
 
 
-### Responsiveness
+### Responsiveness / mobile focused
 The website's reponsiveness was continuously monitored, throughout the development of this project using Chromes Dev Tools.
 [Lighthouse]() was used to generate a report on the qulity of the website.
 
@@ -324,7 +324,6 @@ The changes also made a positive impact on the Desktop devices
 
 Further testing was done using Responsive Test Tool which allowed for testing on additional devices.
 Responsiveness was also tested using the Lambdatest App.
-### Responsiveness / Mobile Friendly
 
 
 ### W3C Validation
