@@ -64,14 +64,7 @@ The goals of this website inlclude:
 
 The following table displays a breakdown of all opportunities/problems along with their importance and viability.
 
-| Opportunity/Problem| Importance| Viability|
-|-------------------------------|------------|-----|                                                            --|
-| Increase customer interaction| 5| 5|
-| Showcase previous work        | 4               | 4             |
-| Build Brand awareness         | 5               | 4             |
-| Become an industry leader     | 4               | 1             |
-| Improve customer experience   | 4               | 5             |
-|                               | 22              | 20            |
+![Opportunity/Problem table](images/misc/importvia.jpg)
 
 
 ### User Stories
@@ -273,23 +266,24 @@ These include:
 #### Buisiness Stories
 
 * As a team member, I want to see my skills and strengths clearly defined in an 'About' section so that our clients will know I'm qualified.
-    *
-    *
-
+    * A defined high to low colour palette is used to display each employees skills.
+    * A content block of text also compliments the progress bars.
 * As a team member who deals with enquiries, I want to to know the user's name, phone number and email address so that I can get in contact with them.
-    *
-    *
+    * The stated fields are marked required.
 
 * As a designer, I do not want prices to be posted online as quotes differ greatly dependending on the project and I really need to talk to the client first.
-    *
-    *
+    * Prices are not viewable on any section of the website. 
+    * A description of the process is included in the blurb section of the 'Contact us' page.
 
 * As the CEO, I want all of our acheivements and past creations to be featured online. 
-include testing grid for compatibility 
-    *
+    * Awards acheived are diplayed on the hompage, with images of the projects visable on the 'Portfolio' page. 
+
+
+    include testing grid for compatibility 
 ### Browsers
     
-The site's reponsiveness was continuously monitored during the development stage using Chromes Dev Tools. Further testing was done using Responsive Test Tool which allowed for testing on additional devices.
+The website's reponsiveness was continuously monitored , throughout the development stage of this project using Chromes Dev Tools.
+Further testing was done using Responsive Test Tool which allowed for testing on additional devices.
 Responsiveness was also tested using the Lambdatest App.
 ### Responsiveness / Mobile Friendly
 
