@@ -71,6 +71,12 @@ h3.heading{
     position: relative;
 }
 
+@media (max-width: 768px) {
+  .home-hero-image-container{
+        background: url("../images/hero-images/home-hero-mobile.png") no-repeat center top;
+  }
+}
+
 
 /* btn styling */
 .btn--cta{
@@ -374,6 +380,12 @@ h3.heading{
     position: relative;
 }
 
+@media (max-width: 768px) {
+  .about-hero-image-container{
+        background: url("../images/hero-images/about-hero-mobile.png") no-repeat center top;
+  }
+}
+
 .about-hero-image-container .jumbotron h1{
     text-align:left;
 }
@@ -459,6 +471,12 @@ h3.heading{
     position: relative;
 }
 
+@media (max-width: 768px) {
+  .contact-hero-image-container{
+        background: url("../images/hero-images/contact-hero-mobile.png") no-repeat center top;
+  }
+}
+
 .contact-hero-image-container .jumbotron h1{
     text-align:left;
 }
@@ -505,6 +523,12 @@ h3.heading{
     justify-content: left;
 
     position: relative;
+}
+
+@media (max-width: 768px) {
+  .portfolio-hero-image-container{
+        background: url("../images/hero-images/portb-mobile.png") no-repeat center top;
+  }
 }
 
 .garden-awards-container{
