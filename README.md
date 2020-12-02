@@ -8,15 +8,15 @@
 
 ![Generated from Am I Responsive](assets/images/misc/responsive.png)
 
-Living Landscapes is a fictitious landscaping company based in Clonakilty, in Co. Cork.  
+Living Landscapes is a fictitious landscaping company based in Clonakilty, Co. Cork.  
 The company consists of 6 team members who provide 3 services, residential landscaping, commercial landscaping and garden maintenance. 
 
 The company was founded in 2011 and has experienced significant growth in the last 5 years. 
-With this is mind, the purpose of this website is to increase customer interaction, improve the customer experience and build brand awareness. 
+With this is mind, the purpose of this website is to increase customer interaction, improve customer experience and build brand awareness. 
 
 Important information and features to the company include: 
 
-* Utilising the brand colors, purple and green.
+* Utilising the brand colors, purple and green throughout the website.
 * Displaying the company's services.
 * Conveying a strong message of excellent customer service.
 * Listing information about the team and company.
@@ -26,32 +26,34 @@ Important information and features to the company include:
 ----------------------------
 
 ## Contents
-1. UX(link later)
-    * Project Goals (em)
-    * User Stories
-    * Project Scope
-    * Wireframes
-    * Surface
+1. [UX](#ux "goto-ux")
+    * [Project Goals](#project-goals "goto project goals")
+    * [User Stories](#user-stories "goto user stories")
+    * [Project Scope](#project-scope "goto project scope")
+    * [Wireframes](#wireframes "goto wireframes")
+    * [Surface](#surface "goto surface")
 
-2. Features 
-    * Existing Features
-    * Features Left to Implement
+2. [Features](#features "goto features")
+    * [Existing Features](#existing-features "goto existing features")
+    * [Features Left to Implement](#features-left-to-implement "goto features left to implement")
 
-3. Technology Used
+3. [Technology Used](#technology-used "goto technology used")
 
-4. Testing
-    * Browsers
-    * Responsiveness
-    * W3C Validation
-    * User Story Testing
+4. [Testing](#testing "goto testing")
+    * [User Story Testing](#user-story-testing " goto user story testing")
+    * [Browser Compatibility](#browser-compatibility "goto browser compatibility")
+    * [Responsiveness](#responsiveness "goto responsiveness")
+    * [W3C Validation](#w3c-validation "goto w3c validation")
+    * [Bugs](#bugs "goto bugs")
+    
 
-5. Deployment
+5. [Deployment](#deployment "goto deployment")
 
-6. Credits
-    * Code
-    * Contents
-    * Media
-    * Acknowledgements
+6. [Credits](#credits "goto credits")
+    * [Contents](#code "goto code")
+    * [Code](#code "goto code")
+    * [Media](#media "goto media")
+    * [Acknowledgments](#Acknowledgments "Acknowledgments")
 
 ----------------------------
 
@@ -226,7 +228,7 @@ These include:
 ## Testing
 
 ### User Story Testing
-The following user storied defined in the [UX section of README.md]()were re-examined to ensure bith the customer's and client's needs were satified.
+The following user stories which were defined in the [UX section of README.md]()were re-examined to ensure bith the customer's and client's needs were satified.
 
 #### Clients Stories
 
@@ -283,7 +285,7 @@ The following user storied defined in the [UX section of README.md]()were re-exa
 * As the CEO, I want all of our acheivements and past creations to be featured online. 
     * Awards acheived are diplayed on the hompage, with images of the projects visable on the 'Portfolio' page. 
 
-### Browser compatibility
+### Browser Compatibility
 As stated by [w3schools](https://www.w3schools.com/browsers/), the most used popular browsers in October 2020 are:
 
 1. Chrome (80.4 %)
@@ -295,7 +297,7 @@ As stated by [w3schools](https://www.w3schools.com/browsers/), the most used pop
 During testing, a bug which affected all links was discovered and this is described in the [bugs section]().
 
 
-### Responsiveness / mobile focused
+### Responsiveness
 The website's reponsiveness was continuously monitored, throughout the development of this project using Chromes Dev Tools.
 [Lighthouse]() was used to generate a report on the qulity of the website.
 
@@ -341,7 +343,7 @@ The following code changes were made to satisy the validator:
 The validity of the CSS code was checked using [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 No errors were found.
 
-### bugs
+### Bugs
 
 pathways working in local site but not displaying a 404 in deployed github pages.
 original pathways: <a href="contact.html" target="_blank"></a>
