@@ -53,40 +53,41 @@ Important information and features to the company include:
     * [Contents](#code "goto code")
     * [Code](#code "goto code")
     * [Media](#media "goto media")
-    * [Acknowledgments](#Acknowledgments "Acknowledgments")
+    * [Acknowledgements](#acknowledgements "goto acknowledgements")
 
 ----------------------------
 
 ## UX
 
 ### Project Goals
-The goals of this website inlclude:
+The goals of this website inlclude to:
 * Increase customer Interaction
 * Showcase previous work 
-* Build Brand awareness  
+* Build brand awareness
 * Improve customer experience
 
 The following table displays a breakdown of all opportunities/problems along with their importance and viability.
 
 ![Opportunity/Problem table](assets/images/misc/importvia.jpg)
 
+While becoming an industry leader is important to compnay it is not viable in this release. 
 
 ### User Stories
 
 #### Client stories
-* As a prospective client, I would like to find an 'about us' section on the website, so that I can learn about the company and it's staff so that I can understand what services are provided and if the staff are adequately qualified.
+* As a prospective client, I would like to find an 'about' section on the website, so that I can learn about the company, it's services and qualification of the staff.
 
 * As a prospective client, I would like to be able to send an online enquiry, so that I can receive additional information.
 
-* As a prospective client who would prefer to speak over the phone rather than email, I would like to be able to request a call-back to an online enquiry and clearly be able to view a telephone number and call-times.
+* As a client who would prefer to speak over the phone rather than email, I would like to be able to request a call-back to an online enquiry and clearly be able to view a telephone number and call-times.
 
 * As a prospective client, I would like to view a portfolio of past work, so that I can know what to expect.  
 
 * As a prospective client who is knowledgeable in horticulture, I would like to see proof that the company are plant experts as this is important to me in garden design. 
 
-* As a prospective client who is not knowledgeable in garden design, I would like to see what options are available to me so that I can descide if this compnay is right for me.  
+* As a prospective client who is not knowledgeable in garden design, I would like to see what options are available to me so that I can decide if this companay is right for me.  
 
-* As an existing client and admirer of the company, I would like to be able to connect and follow the company through social media platforms, so that I build a connection with the brand.
+* As an existing client and admirer of the company, I would like to be able to connect with and follow the company through social media platforms, so that I can build a connection with the brand.
 
 #### Buisiness stories
 
@@ -101,7 +102,7 @@ The following table displays a breakdown of all opportunities/problems along wit
 ### Project Scope
 Based on the above user stories, the following are features which will be inlcuded:
 
-* links to company social platforms.
+* Links to social platforms.
 * A contact us form with an option to specify preferred method of contact.
 * An 'About Us' section which will feature information about the team, company and services offered.
 * A portfolio section which will contain examples of previous work.
@@ -112,10 +113,10 @@ The following is a list of features which will not be included:
 * Social media as an extention of the business.
 * A blog.
 * Back-end site development.
-* extensive content/imagery on portfolio examples.
+* Extensive content/imagery on portfolio examples.
 
 ### Wireframes
-All wireframes were created using the software [Balsamiq](www.balsamiq.com). 
+All wireframes were created using the software [Balsamiq](https://balsamiq.com/). 
 Layouts were created following research on the five planes of UX and before coding. 
 <strong>
 Please note, the final website layout contains slight variations to the original wireframes.
@@ -130,19 +131,20 @@ Please note, the final website layout contains slight variations to the original
 **Tablet**
 * [Home Page](assets/wireframes/tablet/thome.png)
 * [About Us](assets/wireframes/tablet/tabout.png)
+* [Portfolio](/assets/wireframes/tablet/tportfolio.png)
 * [Contact Us](assets/wireframes/tablet/tcontact.png)
 
 **Mobile**
 * [Home Page](assets/wireframes/mobile/mhome.png)
 * [About Us](assets/wireframes/mobile/mabout.png)
+* [Portfolio](/assets/wireframes/mobile/mportfolio.png)
 * [Contact Us](assets/wireframes/mobile/mcontact.png)
 
 
 ### Surface
-A two color palette of green and purple was used, which took inspiration from the company logo. 
-This was included in background colors, font & hover elements.
+A two color palette of green and purple was used. This took inspiration from the company logo and was included in background colors, navigation, font colours & hover elements.
 
-All fonts used are from Google fonts [Google Fonts ](https://fonts.google.com/). 
+All fonts used are from [Google Fonts ](https://fonts.google.com/). 
 
 Fonts used include:
 * B612 - used for all headings (h1 - h6)
@@ -232,7 +234,7 @@ The following user stories which were defined in the [UX section of README.md]()
 
 #### Clients Stories
 
-* As a prospective client, I would like to find an 'about us' section on the website, so that I can learn about the company and it's staff so that I can understand what services are provided and if the staff are adequately qualified.
+* * As a prospective client, I would like to find an 'about' section on the website, so that I can learn about the company, it's services and qualification of the staff.
     * A dedicated 'About' page has been created, which includes content on the company's mission,the services they provide and a detailed description on each team member and their skills.
     * The company's services are also viewable on the 'About' page. Within the footer, quick contact-us links have been provided to encourage the user to get in touch with any queries. 
 
@@ -241,7 +243,7 @@ The following user stories which were defined in the [UX section of README.md]()
      * Quick links to the 'Contact Us' page have also been  included in the footer and in the header (hero image banner CTA) of each page. 
      * By encouraging the user to contact the company in many ways, a strong approachable message is conveyed. 
 
-* As a prospective client who would prefer to speak over the phone rather than email, I would like to be able to request a call-back to an online enquiry and clearly be able to view a telephone number and call-times.
+* As a client who would prefer to speak over the phone rather than email, I would like to be able to request a call-back to an online enquiry and clearly be able to view a telephone number and call-times.
     * A preferred method of contact can be specified on the online enquiry form. 
     * The company's contact telephone number is also visable on the footer of each page.
     * The compnay's contact telephone number with the message 'Want To Chat? So Do We!' is displayed on the 'Home' & 'Contact Us' page. 
@@ -266,7 +268,7 @@ The following user stories which were defined in the [UX section of README.md]()
     * Testimonials are viewable on the 'Home' page, which give positive feedback on the company, showcasing how approachable the company is. 
     
 
-* As an existing client and admirer of the company, I would like to be able to connect and follow the company through social media platforms, so that I build a connection with the brand.
+* As an existing client and admirer of the company, I would like to be able to connect with and follow the company through social media platforms, so that I build a connection with the brand.
     * Quick links to the compnay's social media platforms are viewable on the footer of each page. 
 
 
