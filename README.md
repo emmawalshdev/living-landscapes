@@ -329,10 +329,12 @@ The following actions were taken to improve SEO:
 * Meta descriptions were added to all html pages.
 
 The changes made can be seen to have made an improvement in the following Lighthouse screenshot:
+
 ![Lighthouse Image - After](assets/images/misc/lighthouse2.jpg)
 
 
 The changes also made a positive impact on Desktop devices
+
 ![Lighthouse Image - After Desktop](assets/images/misc/lighthouse-desktop.jpg)
 
 ### W3C Validation
@@ -352,10 +354,10 @@ No errors were found.
 
 ### Bugs
 
-pathways working in local site but not displaying a 404 in deployed github pages.
-original pathways: <a href="contact.html" target="_blank"></a>
-creating a 404
-
+1. Upon deploying the site on Github pages the path links did not work. 
+    * In all pages, clicking an 'a href' link led to a 404 page, however all links were working correctly when locally deployed. 
+    * The issue was resolved by correcting the pathways so that they could be read outside the local environment.
+    * [Pluralsight](https://www.pluralsight.com/guides/fixing-broken-relative-links-on-github-pages), [Code Academy Forums](https://discuss.codecademy.com/t/css-not-working-on-github-pages/440469/2) and [Coffee Cup](https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/) articles assisted in ammending this issue. 
 
 ----------------------------
 
@@ -368,14 +370,30 @@ The website was hosted on Github Pages. It was deployed by carrying out the foll
 3. go to 'settings' in respo
 4. In 'Github Pages' choose 'Master Branch' as Source and save.
 
-The Live site deployed can be viewed on the following link: [Living Landscapes](https://emmahartedev.github.io/living-landscapes/)
+The Live site deployed can be viewed on the following link: 
+[Living Landscapes](https://emmahartedev.github.io/living-landscapes/)
 
 ### Local
-To run locally, the following steps can be followed:
+To clone this project locally; a Chrome browser and Github account are required. 
 
-1. Visit the following Github repository [Github - Living Landscapes](https://github.com/emmahartedev/living-landscapes).
-2. Clone or download the repository to an editor of your choice.
-3. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+The following steps can then be followed:
+1. Install the [Gitpod Browser Chrome Extention](https://chrome.google.com/webstore/detail/gitpod-dev-environments-i/dodmmooeoklaejobgleioelladacbeki), restarting the browser after installation.
+2. Log into [Gitpod](https://gitpod.io/).
+3. Click on the following link to go to the [project repository](https://github.com/emmahartedev/living-landscapes).
+4. Click on the green 'Gitpod' button which is located to the right of the repository to launch a new workspace.
+5. The code can be worked on in this newly launched workspace. 
+
+To clone code within an IDE of your choice:
+
+1. Click on the following link to go to the [project repository](https://github.com/emmahartedev/living-landscapes).
+2. Click 'Code' and in the Clone with HTTPs, copy the provided repository URL. 
+3. Open a terminal in your IDE.
+4. Change the current working directory to the location you wish to generate the cloned directory.
+5. Type git clone, and then paste the URL from step 2. 
+
+```
+git clone https://github.com/emmahartedev/living-landscapes.git
+```
 
 ----------------------------
 
