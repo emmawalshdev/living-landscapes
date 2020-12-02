@@ -359,15 +359,19 @@ No errors were found.
     * The issue was resolved by correcting the pathways so that they could be read outside the local environment.
     * [Pluralsight](https://www.pluralsight.com/guides/fixing-broken-relative-links-on-github-pages), [Code Academy Forums](https://discuss.codecademy.com/t/css-not-working-on-github-pages/440469/2) and [Coffee Cup](https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/) articles assisted in ammending this issue. 
 
+2. Upon loading contact.html, white space was present in the text area field.
+    * As 'Your Message' is a required field, the whitespace technically counts as input and allows the user to send a message without entering content. 
+    * The issue was resolved by correcting the code. The closing textarea tag was brought up to the same line as the opening tag.
+
 ----------------------------
 
 ## Deployment
 
 The website was hosted on Github Pages. It was deployed by carrying out the following steps:
 
-1. login into Github
-2. Select the respository from profile
-3. go to 'settings' in respo
+1. login into Github.
+2. Select the respository from profile.
+3. go to 'settings' in the repository.
 4. In 'Github Pages' choose 'Master Branch' as Source and save.
 
 The Live site deployed can be viewed on the following link: 
