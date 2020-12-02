@@ -147,8 +147,8 @@ A two color palette of green and purple was used. This took inspiration from the
 All fonts used are from [Google Fonts ](https://fonts.google.com/). 
 
 Fonts used include:
-* B612 - used for all headings (h1 - h6)
-* Roboto - used for other all body text
+* B612 - used for all headings (h1 - h6).
+* Roboto - used for other all body text.
 
 
 ----------------------------
@@ -159,14 +159,15 @@ Fonts used include:
 * **Navigation** 
     * The navigation contains the brand logo and four links which lead to 4 seperate pages. 
     * The brand logo is an anchor tag, which is linked to the homepage. 
-    *  The pages are ordered to create a walk-through experience (Home > About > Portfolio > Contact Us)
-    *  For mobile devices, the navbar is designed to collapse.
-    *  This feature was created with the aid of Bootstrap 4 and styled in with custom CSS. 
+    * The pages are ordered to create a walk-through experience (Home > About > Portfolio > Contact Us)
+    * For mobile devices, the navbar is designed to collapse.
+    * This feature was created using Bootstrap 4 and styled in with custom CSS. 
 
 * **Contact Us Form**
     * The contact form includes the necessary information required by the team. 
-    *  Several of the fields are required and the user will be alerted by a message if a required field has not been filled in. 
-    *  This feature was created using a Bootstrap 4 form and JavaScript.
+    * Several of the fields are required and the user will be alerted by a message if a required field has not been filled in. 
+    * Due to the nature of consultation, prices on quotations were not provided on this form; as requested by the team. The forms acts as a general enquiry submission.
+    * This feature was created using a Bootstrap 4 form and JavaScript.
 
 * **Meet the Team**
     * All staff memebers are featured in the 'About' section. 
@@ -188,55 +189,59 @@ Fonts used include:
     * The company's recent creations are featured underneath, using an identical layout.
 
 * **Footer**
-    * The brand logo is features on the footer left.
+    * The brand logo is featured on the footer left.
     * Quick contact links are included in the footer center.
     * Social media links are visable on the footer right.
 
 ### Features Left to Implement
-Due to project scope, the following features were note implemented in this release. 
+Due to project scope, the following features were not implemented in the current release. 
 
 These include:
 * Back-end development - Server side development is required for functionality of the contact us form. 
 
-* Maps Integration - I would like to Integrate maps into the website, for an added visual reference.  
+* Map Integration - I would like to Integrate maps into the website, for added reference. 
 
-* Image Carousel - I would like to include an image carousel feature for the indidual creation in the 'Portfolio' page. 
+* Image Carousel - I would like to include an image carousel feature for the indidual creation in the 'Portfolio' page.
+
+* Request a quotation on contact form - This is an option for the future, depending on the requirements of the company. 
 
 ----------------------------
 
 ## Technology Used
 
-* HTML5 - Used for structuring the site pages
+* [HTML5](https://www.w3schools.com/html/) - Used for structuring the site pages.
 
-* CSS - Used for styling the site pages
+* [CSS](https://www.w3schools.com/css/) - Used for styling the site pages.
 
-* Bootstrap 4 - Framework used for building the site pages
+* [Bootstrap 4](https://getbootstrap.com/) - Framework used for building the site pages.
 
-* Google Fonts - Used for typography
+* [Google Fonts](https://fonts.google.com/) - Used for typography.
 
-* Adobe Photoshop - Used to resize and edit images
+* [Adobe Photoshop](https://www.adobe.com/de/products/photoshop.html?sdid=88X75SKP&mv=search&ef_id=EAIaIQobChMI95Sd8Zyv7QIVA893Ch3SYQCaEAAYASAAEgI41vD_BwE:G:s&s_kwcid=AL!3085!3!341205896389!e!!g!!adobe%20photoshop!1419109629!54636022246&gclid=EAIaIQobChMI95Sd8Zyv7QIVA893Ch3SYQCaEAAYASAAEgI41vD_BwE) - Used to resize and edit images.
 
-* Font Awesome - Used for all Icons used
+* [Font Awesome](https://fontawesome.com/) - Used for all Icons.
 
-* Git - Used for version control
+* [Gitpod](https://www.gitpod.io/docs/) - Used as a development environment.
 
-* Github - Used for respository hosting
+* [Github](https://github.com/) - Used for respository hosting.
 
-* Github Pages - Used for site deployment
+* [Github Pages](https://pages.github.com/) - Used for site deployment.
 
-* Chrome Dev tools- Used for the monitoring the Responsiveness of the website
+* [Chrome Dev tools](https://developers.google.com/web/tools/chrome-devtools)- Used for monitoring the Responsiveness of the website.
+
+* [Cross Browser Testing](https://crossbrowsertesting.com/) - Used for monitoring the Responsiveness of the website.
 
 ----------------------------
 ## Testing
 
 ### User Story Testing
-The following user stories which were defined in the [UX section of README.md]()were re-examined to ensure bith the customer's and client's needs were satified.
+The following user stories which were defined in the [UX](#ux "goto-ux") section of this README document were re-examined; to ensure that the needs and expectations of both the customer and client have been met. 
 
 #### Clients Stories
 
-* * As a prospective client, I would like to find an 'about' section on the website, so that I can learn about the company, it's services and qualification of the staff.
-    * A dedicated 'About' page has been created, which includes content on the company's mission,the services they provide and a detailed description on each team member and their skills.
-    * The company's services are also viewable on the 'About' page. Within the footer, quick contact-us links have been provided to encourage the user to get in touch with any queries. 
+* As a prospective client, I would like to find an 'about' section on the website, so that I can learn about the company, it's services and qualification of the staff.
+    * A dedicated 'About' page has been created, which includes content on the company's mission, the services they provide and a detailed description on each team member and their skills.
+    * The company's services are also viewable on the 'About' page. Within the footer, quick contact-us links have also been provided to encourage the user to get in touch with any queries. 
 
 * As a prospective client, I would like to be able to send an online enquiry, so that I can receive additional information.
     * An online enquiry form has been created within the 'Contact Us' section. This has been created to be very easy-to-use, with integrated invalid messages prompted to appear if the user  has missed a required field. 
@@ -248,7 +253,7 @@ The following user stories which were defined in the [UX section of README.md]()
     * The company's contact telephone number is also visable on the footer of each page.
     * The compnay's contact telephone number with the message 'Want To Chat? So Do We!' is displayed on the 'Home' & 'Contact Us' page. 
 
-* As a prospective client, I would like to view a portfolio of past work, so that I can know what to expect.  
+* As a prospective client, I would like to view a portfolio of past work, so that I will know what to expect.  
     * A dedicated Portfolio' page has been created.
     * 'Award-Winning Gardens' are displayed first, showing the company's greatest acheivements.
     * 'Our Recent Creations' shows an additional six garden designs with a date and discription included. 
@@ -262,7 +267,7 @@ The following user stories which were defined in the [UX section of README.md]()
     * In each creation listed on the 'Portfolio' page, all horticultural aspects of the projects are described. 
 
 * As a prospective client who is not knowledgeable in garden design, I would like to see what options are available to me so that I can decide if this company is right for me.  
-    * All services provided by the company are listed in the 'About Us' web page. 
+    * All services provided by the company are listed in the 'About' web page. 
     * All services provided and company description are included on the footer of each page. 
     * The company's past creations are viewable in the 'Portfolio' page. This gives an in-depth overview of the standard of work which can be expected. 
     * Testimonials are viewable on the 'Home' page, which give positive feedback on the company, showcasing how approachable the company is. 
@@ -275,14 +280,14 @@ The following user stories which were defined in the [UX section of README.md]()
 #### Buisiness Stories
 
 * As a team member, I want to see my skills and strengths clearly defined in an 'About' section so that our clients will know I'm qualified.
-    * A defined high to low colour palette is used to display each employees skills.
+    * A defined colour palette is used to display each employees skills.
     * A content block of text also compliments the progress bars.
 * As a team member who deals with enquiries, I want to to know the user's name, phone number and email address so that I can get in contact with them.
     * The stated fields are marked required.
 
 * As a designer, I do not want prices to be posted online as quotes differ greatly dependending on the project and I really need to talk to the client first.
     * Prices are not viewable on any section of the website. 
-    * A description of the process is included in the blurb section of the 'Contact us' page.
+    * An explanation of why prices are excluded is included in the blurb section of the 'Contact us' page.
 
 * As the CEO, I want all of our acheivements and past creations to be featured online. 
     * Awards acheived are diplayed on the hompage, with images of the projects visable on the 'Portfolio' page. 
@@ -296,50 +301,50 @@ As stated by [w3schools](https://www.w3schools.com/browsers/), the most used pop
 4. Safari (3.7 %)
 
 [Cross Browser Testing](https://crossbrowsertesting.com/) was used to access the quality of the website on the above four browsers.
-During testing, a bug which affected all links was discovered and this is described in the [bugs section]().
+During testing, a bug which affected all links  was discovered and this has been documented in the [Bugs Section](#bugs "goto bugs").
+Other than this, no issues in compatibility were recorded. 
+Internet explorer was also checked and it was discovered that several Bootstrap features did not work on this browser. 
+Fixing these bugs in this release was not deemed as priority due to the fact that IE is no longer supported by Microsoft.
 
 
 ### Responsiveness
-The website's reponsiveness was continuously monitored, throughout the development of this project using Chromes Dev Tools.
-[Lighthouse]() was used to generate a report on the qulity of the website.
+The website's reponsiveness was continuously monitored, throughout the development of this project using [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools).
 
-The below image shows a screenshot of the lighthouse report for mobile.
+In addition to this, [Lighthouse](https://developers.google.com/web/tools/lighthouse) was run in Chrome Dev Tools, to generate reports on the qulity of the website.
+
+The below image shows a screenshot of the lighthouse report for mobile devices.
 ![Lighthouse](assets/images/misc/lighthouse1.jpg)
 
 The following actions were taken to improve performance:
 
-* All images are converted to png format.  
-* custom sized banner images are created for mobile devices. 
+* All images were converted to png format.  
+* Custom hero banner images were created for mobile devices. 
 
 The following actions were taken to improve best practices:
-* 'rel="noopener"' was added to all external links to improve performance and prevent security vulnerabilities
-* All un-used classes are removed.
-* increase color contrast of colours.
+* 'rel="noopener"' was added to all external links to improve performance and prevent security vulnerabilities.
+* All unused classes were removed.
+* The color contrast of colours was increased.
 
 The following actions were taken to improve SEO:
-* Meta description was added to all html pages.
+* Meta descriptions were added to all html pages.
 
 The changes made can be seen to have made an improvement in the following Lighthouse screenshot:
 ![Lighthouse Image - After](assets/images/misc/lighthouse2.jpg)
 
 
-The changes also made a positive impact on the Desktop devices
+The changes also made a positive impact on Desktop devices
 ![Lighthouse Image - After Desktop](assets/images/misc/lighthouse-desktop.jpg)
-
-Further testing was done using Responsive Test Tool which allowed for testing on additional devices.
-Responsiveness was also tested using the Lambdatest App.
-
 
 ### W3C Validation
 The validity of each page's HTML code was checked using [The W3C Markup Validation Service](https://validator.w3.org/).
 The following code changes were made to satisy the validator:
 
 * In index.html
-    * Within the ul element, all h4 and a href elements were removed 
+    * Within the ul element, all h4 and a href elements were removed.
     * within the navbar-toggler class button element, the aria-controls attribute was corrected.
 
 * contact.html
-    * Within the contact form, the legend was replaced with a div.
+    * Within the contact form, the legend element was replaced with a div.
 
 
 The validity of the CSS code was checked using [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
