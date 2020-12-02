@@ -408,6 +408,7 @@ The following websites were used for inspiration and assistance:
 * [CSS Tricks](https://css-tricks.com/)
 * [Awwwards](https://www.awwwards.com/)
 * [Stack Overflow](https://stackoverflow.com/)
+* [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 
 ###  Media
 The images used on this site are royalty free and were obtained from the following websites:
@@ -415,6 +416,8 @@ The images used on this site are royalty free and were obtained from the followi
 * [Unsplash](https://unsplash.com/)
 * [Pexels](https://www.pexels.com/de-de/)
 * [Pixabay](https://pixabay.com/de/)
+
+The company logo was generated on [Canva](https://www.canva.com/).
 
 ### Acknowledgements
 I would like to thank my Code Institute mentor, Mark Railton for his support and guidance throughout this project. 
