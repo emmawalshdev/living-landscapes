@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="assets/css/stylesheet.css" type="text/css">
 </head>
 <body>
+    <!--Nav bar collapsible used from bootstrap-->
     <header>
         <div class="container-fluid nav-container">
             <nav class="navbar navbar-light navbar-expand-sm">
@@ -51,6 +52,7 @@
             </nav>
         </div>
     </header>
+    <!--Hero-image-conatainer with text jumbotron-->
     <section class="container-fluid about-hero-image-container">
             <div class="overlay">
             </div>
@@ -70,6 +72,7 @@
                 </div>
             </div>
     </section>
+    <!--blurb under hero image container, used in every page to summarise page purpose-->
     <section class="container-fluid about-our-company-container">
         <div class="row">
             <div class="col-12 blurb">
@@ -87,6 +90,7 @@
             </div>
         </div>
     </section>
+    <!--our services section, 2 rows(title & examples)-->
     <section class="container-fluid our-creations-container our-services-container">
         <div class="row no-gutters">
             <div class="col-12">
@@ -96,6 +100,7 @@
                 <hr>
             </div>
         </div>
+        <!-- full screen display on md down, 1/3 display on lg down for examples-->
         <div class="row no-gutters">
             <div class="col-12 col-md-4 col-lg-4 creationexamples">
                 <div class="shadow-box1">
@@ -162,7 +167,7 @@
             </div>
         </div>
     </section> 
-
+    <!-- Meet the team section, 3 rows(title (1 row) & examples (2 rows))-->
     <section class = "container-fluid testimonial-section meet-the-team-container">
         <div class="row">
             <div class="col-12">
@@ -172,9 +177,12 @@
                 <hr>  
             </div>
         </div>
+        <!-- first row containing 3 cols (1 team-member in each)-->
         <div class="row">
+            <!--team member 1-->
             <div class="col-12 col-md-4 team-member">
                 <div class="row">
+                    <!--image div of team member-->
                     <div class="col-12">
                         <div class="p-3">
                             <div class="shadow-box">
@@ -182,6 +190,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- content div of team member-->
                     <div class="col-12">
                         <div class="team-text-box">
                             <h5 class="mt-4">
@@ -195,7 +204,8 @@
                                 Louise is an award-winning Garden Designer, taking inspiration from the beauty of Ireland and infusing it with a romantic French style. 
                                 She founded Living Landscapes in 2011.
                             </small>  
-                        </div>    
+                        </div>
+                        <!--progress bars to showcase team-member skills-->    
                         <button data-toggle="collapse" data-target="#experience1" class="btn--cta mt-3 mb-3">
                             Key Skills
                         </button>
@@ -232,8 +242,10 @@
                     </div>
                 </div>
             </div>
+            <!--team member 2-->
             <div class="col-12 col-md-4 team-member">
                 <div class="row">
+                    <!--image div of team member-->
                     <div class="col-12">
                         <div class="p-3">
                             <div class="shadow-box">
@@ -241,6 +253,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- content div of team member-->
                     <div class="col-12">
                         <div class="team-text-box">
                             <h5 class="mt-4">
@@ -255,6 +268,7 @@
                                 Katie joined Living Landscapes in 2014, bringing a wealth of experience to the team.
                             </small>
                         </div>     
+                        <!--progress bars to showcase team-member skills-->
                         <button data-toggle="collapse" data-target="#experience2" class="btn--cta mt-3 mb-3">
                             Key Skills
                         </button>
@@ -291,8 +305,10 @@
                     </div>
                 </div>
             </div>
+            <!--team member 3-->
             <div class="col-12 col-md-4 team-member">
                 <div class="row">
+                    <!--image div of team member-->
                     <div class="col-12">
                         <div class="p-3">
                             <div class="shadow-box">
@@ -300,6 +316,7 @@
                             </div>
                         </div>
                     </div>
+                    <!-- content div of team member-->
                     <div class="col-12">
                         <div class="team-text-box">
                             <h5 class="mt-4">
@@ -314,7 +331,9 @@
                                 Jeff joined Living Landscapes in 2012 and has celebrated creating three award winning gardens since. 
                             </small> 
                         </div>     
-                        <button data-toggle="collapse" data-target="#experience3" class="btn--cta mt-3 mb-3">Key Skills</button>
+                        <!--progress bars to showcase team-member skills-->
+                        <button data-toggle="collapse" data-target="#experience3" class="btn--cta mt-3 mb-3">Key Skills
+                        </button>
                         <div id="experience3" class="collapse">
                             <div class="progress">
                                 <div class="progress-bar bg-color3" role="progressbar" style="width: 97%" aria-valuenow="97" aria-valuemin="0" aria-valuemax="97">
@@ -349,6 +368,7 @@
                 </div>
             </div>
         </div>
+        <!-- second row containing 3 cols (1 team-member in each) exact same layout as in the previous row-->
         <div class="row">
             <div class="col-12 col-md-4 team-member">
                 <div class="row">
@@ -526,6 +546,7 @@
             </div>
         </div>
     </section>
+    <!--footer section, 1 row 3 cols contains logo, blurb/quicklinks & social links-->
     <footer class="container-fluid footer-section">
         <div class="row">
             <div class="col-12 col-lg-4 logo">
@@ -598,6 +619,7 @@
             </div>
         </div>
     </footer>
+    <!-- script needed for progress bars js-->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
