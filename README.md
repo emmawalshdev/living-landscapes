@@ -46,7 +46,6 @@ Important information and features to the company include:
     * [W3C Validation](#w3c-validation "goto w3c validation")
     * [Bugs](#bugs "goto bugs")
     
-
 5. [Deployment](#deployment "goto deployment")
 
 6. [Credits](#credits "goto credits")
@@ -117,26 +116,29 @@ The following is a list of features which will not be included:
 
 ### Wireframes
 All wireframes were created using the software [Balsamiq](https://balsamiq.com/). 
-Layouts were created following research on the five planes of UX and before coding. 
+Layouts were created following research on the five planes of UX and before coding.
+
+A consistent layout was used throughout the pages. One subtle design difference was created so that the user would easily be able to distinguish the homepage to subsequent pages.
+This inludes the offsetted hero-image text on the 'About','Portfolio', & 'Contact Us' page. 
 <strong>
 Please note, the final website layout contains slight variations to the original wireframes.
 </strong>
 
 **Desktop** 
 * [Home Page](assets/wireframes/desktop/dhome.png)
-* [About Us](/assets/wireframes/desktop/dabout.png)
+* [About](/assets/wireframes/desktop/dabout.png)
 * [Portfolio](/assets/wireframes/desktop/dportfolio.png)
 * [Contact Us](/assets/wireframes/desktop/dcontact.png)
 
 **Tablet**
 * [Home Page](assets/wireframes/tablet/thome.png)
-* [About Us](assets/wireframes/tablet/tabout.png)
+* [About](assets/wireframes/tablet/tabout.png)
 * [Portfolio](/assets/wireframes/tablet/tportfolio.png)
 * [Contact Us](assets/wireframes/tablet/tcontact.png)
 
 **Mobile**
 * [Home Page](assets/wireframes/mobile/mhome.png)
-* [About Us](assets/wireframes/mobile/mabout.png)
+* [About](assets/wireframes/mobile/mabout.png)
 * [Portfolio](/assets/wireframes/mobile/mportfolio.png)
 * [Contact Us](assets/wireframes/mobile/mcontact.png)
 
@@ -347,7 +349,6 @@ The following code changes were made to satisy the validator:
 
 * contact.html
     * Within the contact form, the legend element was replaced with a div.
-
 
 The validity of the CSS code was checked using [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
 No errors were found.
