@@ -1,8 +1,10 @@
+/* font importation*/
 @import url('https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&family=Roboto&display=swap');
 
 
 
 /* ------------------------------------ index.html ------------------------ */
+/*General text formating in all pages*/
 body{
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
@@ -38,12 +40,13 @@ h3.heading{
 .navbar-light .navbar-nav .nav-link:hover{
     color:#7853a5;
     padding: 10px 15px;
-}
+} /*incorportate brand purple colour for hover nav elements*/
 
 
 .navbar-light .navbar-nav .active>.nav-link{
     color: #7853a5;
 }
+
 
 @media(min-width:1300px){
     .navbar{
@@ -54,7 +57,7 @@ h3.heading{
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
-    }
+    } /*switch brand logo position in nav bar from left to middle*/
 }
 
 /* home banner */
