@@ -2,19 +2,21 @@
 
 ## User-Centric Frontend Development 
 
-![Living Landscapes Logo](assets/images/logo/footer_logo.png) - [View the Live Site here.](https://emmahartedev.github.io/living-landscapes/)
+[View the Live Site here.](https://emmahartedev.github.io/living-landscapes/)
+
+![Living Landscapes Logo](assets/images/logo/footer_logo.png) 
 
 ![Generated from Am I Responsive](assets/images/misc/responsive.png)
 
 Living Landscapes is a fictitious landscaping company based in Clonakilty, Co. Cork.  
-The company consists of 6 team members who provide 3 services, residential landscaping, commercial landscaping and garden maintenance. 
+The company consists of 6 team members who provide 3 services, residential landscaping, commercial landscaping, and garden maintenance. 
 
 The company was founded in 2011 and has experienced significant growth in the last 5 years. 
-With this is mind, the purpose of this website is to increase customer interaction, improve customer experience and build brand awareness. 
+With this in mind, the purpose of this website is to increase customer interaction, improve customer experience and build brand awareness. 
 
 Important information and features to the company include: 
 
-* Utilising the brand colors, purple and green throughout the website.
+* Utilizing the brand colors, purple and green throughout the website.
 * Displaying the company's services.
 * Conveying a strong message of excellent customer service.
 * Listing information about the team and company.
@@ -50,14 +52,14 @@ Important information and features to the company include:
     * [Contents](#code "goto code")
     * [Code](#code "goto code")
     * [Media](#media "goto media")
-    * [Acknowledgements](#acknowledgements "goto acknowledgements")
+    * [Acknowledgments](#acknowledgments "goto acknowledgments")
 
 ----------------------------
 
 ## UX
 
 ### Project Goals
-The goals of this website inlclude to:
+The goals of this website include to:
 * Increase customer Interaction.
 * Showcase previous work.
 * Build brand awareness.
@@ -67,16 +69,16 @@ The following table displays a breakdown of all opportunities/problems along wit
 
 ![Opportunity/Problem table](assets/images/misc/importvia.jpg)
 
-While becoming an industry leader is important to company it is not viable in this release. 
+While becoming an industry leader is important to the company it is not viable in this release. 
 
 ### User Stories
 
 #### Client stories
-* As a prospective client, I would like to find an 'about' section on the website, so that I can learn about the company, it's services and the qualifications of the staff.
+* As a prospective client, I would like to find an 'about' section on the website, so that I can learn about the company, its services and the qualifications of the staff.
 
-* As a prospective client, I would like to be able to send an online enquiry, so that I can receive additional information.
+* As a prospective client, I would like to be able to send an online inquiry, so that I can receive additional information.
 
-* As a client who would prefer to speak over the phone rather than email, I would like to be able to request a call-back to an online enquiry and clearly be able to view a business telephone number and call-times.
+* As a client who would prefer to speak over the phone rather than email, I would like to be able to request a call-back to an online inquiry and clearly be able to view a business telephone number and call-times.
 
 * As a prospective client, I would like to view a portfolio of past work, so that I can know what to expect.  
 
@@ -90,24 +92,24 @@ While becoming an industry leader is important to company it is not viable in th
 
 * As a team member, I want to see my skills and strengths clearly defined in an 'About' section so that our clients will know I'm qualified.
 
-* As a team member who deals with enquiries, I want to know the user's name, phone number and email address so that I can get in contact with them.
+* As a team member who deals with inquiries, I want to know the user's name, phone number, and email address so that I can get in contact with them.
 
-* As a designer, I do not want prices to be posted online as quotes differ greatly dependending on the project and I really need to talk to the client first.
+* As a designer, I do not want prices to be posted online as quotes differ greatly depending on the project and I really need to talk to the client first.
 
-* As the CEO, I want all of our acheivements and past creations to be featured online. 
+* As the CEO, I want all of our achievements and past creations to be featured online. 
 
 ### Project Scope
-Based on the above user stories, the following are features which will be inlcuded:
+Based on the above user stories, the following are features that will be included:
 
 * Links to social platforms.
-* A contact us form with an option to specify preferred method of contact.
-* An 'About Us' section which will feature information about the team, company and services offered.
-* A portfolio section which will contain examples of previous work.
+* A contact us form with an option to specify the preferred method of contact.
+* An 'About Us' section will feature information about the team, company, and services offered.
+* A portfolio section will contain examples of previous work.
 
-The following is a list of features which will not be included: 
+The following is a list of features that will not be included: 
 
 * Ecommerce functionality.
-* Social media as an extention of the business.
+* Social media as an extension of the business.
 * A blog.
 * Back-end site development.
 * Extensive content/imagery on portfolio examples.
@@ -120,6 +122,7 @@ Layouts were created following research on the five planes of UX and before codi
 <strong>
 Please note, the final website layout contains slight variations to the original wireframes.
 </strong>
+
 
 **Desktop** 
 * [Home Page](assets/wireframes/desktop/dhome.png)
@@ -150,19 +153,19 @@ Fonts used include:
 * Roboto - used for other all body text.
 
 #### Colour Scheme
-A two color palette of green and purple was used. This took inspiration from the company logo and was included in background colors, navigation, font colours & hover elements.
+A two-color palette of green and purple was used. This took inspiration from the company logo and was included in background colours, navigation, font colours & hover elements.
 
 #### Imagery
-* The hero image on each page was designed to take up 70% of full-screen height. In doing so, a hint of the following content is given. 
+* The hero image on each page was designed to take up 70% of the full-screen height. In doing so, a hint of the following content is given. 
 * Striking imagery was used for the hero images. The image was chosen to portray the theme of each page. An overlay was used, as necessary, to improve the readability of each page. 
-* A squared image was used for all garden and garden-design related images. This provides a striking image shape which allows the user to easily classify the image type.
-* A circular image was used for all team memebers and testimonial related images. This provides a profile image shape which allows the user to easily classify the image type.
+* A squared image was used for all garden and garden-design related images. This provides a striking image shape that allows the user to easily classify the image type.
+* A circular image was used for all team members and testimonial related images. This provides a profile image shape that allows the user to easily classify the image type.
 
-#### Deisgn justifications
-A consistent layout was used throughout the pages. Sections were reused throughout pages as needed to both decrease the amount of new code needed and improve familiarity of content. 
+#### Design justifications
+A consistent layout was used throughout the pages. Sections were reused throughout pages as needed to both decrease the amount of new code needed and improve the familiarity of content. 
 
 One subtle design difference was created so that the user would easily be able to distinguish the homepage from subsequent pages.
-This inludes the offsetted hero-image text on the 'About','Portfolio', & 'Contact Us' page. 
+This includes the offset hero-image text on the 'About','Portfolio', & 'Contact Us' page. 
 
 To improve the user experience, the use of the ```<a href = "" target = "_blank"> </a>``` was limited, applying the ```target = "_blank">``` attribute only for external links, such as social links and mailto. 
 
@@ -172,7 +175,7 @@ To improve the user experience, the use of the ```<a href = "" target = "_blank"
 
 ### Existing Features 
 * **Navigation** 
-    * The navigation contains the brand logo and four links which lead to 4 seperate pages. 
+    * The navigation contains the brand logo and four links which lead to 4 separate pages. 
     * The brand logo is an anchor tag, which is linked to the homepage. 
     * The pages are ordered to create a walk-through experience (Home > About > Portfolio > Contact Us)
     * For mobile devices, the navbar is designed to collapse.
@@ -181,7 +184,7 @@ To improve the user experience, the use of the ```<a href = "" target = "_blank"
 * **Contact Us Form**
     * The contact form includes the necessary information required by the team. 
     * Several fields are required and the user will be alerted by a message if a required field has not been filled in. 
-    * Due to the nature of consultation, prices on quotations were not provided on this form; as requested by the team. The forms acts as a general enquiry submission.
+    * Due to the nature of consultation, prices on quotations were not provided on this form; as requested by the team. The form acts as a general inquiry submission.
     * This feature was created using a Bootstrap 4 form and JavaScript.
 
 * **Meet the Team**
@@ -195,30 +198,30 @@ To improve the user experience, the use of the ```<a href = "" target = "_blank"
 
 * **Testimonials**
     * Testimonials are included on the 'Home' page.
-    * Content includes the client's image, the quotation and client's details.
+    * Content includes the client's image, the quotation, and the client's details.
     * A Bootstrap 4 card is used to hold the testimonial content. 
    
 
 * **Portfolio**
-    * Within the Portfolio page, award-winning garden designs are displayed seperately and include a gold-badge which shows the year in which the award was acheived. 
+    * Within the Portfolio page, award-winning garden designs are displayed separately and include a gold-badge that shows the year in which the award was achieved. 
     * The company's recent creations are featured underneath, using an identical layout.
 
 * **Footer**
     * The brand logo is featured on the footer left.
-    * Quick contact links are included on the footer center.
+    * Quick contact links are included in the footer center.
     * Social media links are visible on the footer right.
 
 ### Features Left to Implement
 Due to project scope, the following features were not implemented in the current release. 
 
 These include:
-* Back-end development - Server side development is required for functionality of the contact us form. 
+* Back-end development - Server-side development is required for the functionality of the contact us form. 
 
 * Map Integration - I would like to Integrate maps into the website, for added reference. 
 
 * Image Carousel - I would like to include an image carousel feature for the individual creations in the 'Portfolio' page.
 
-* Request Design Quotation on 'Contact Us' page - This is an option for the future, depending on the requirements of the company. 
+* Request Design Quotation on the 'Contact Us' page - This is an option for the future, depending on the requirements of the company. 
 
 ----------------------------
 
@@ -238,7 +241,7 @@ These include:
 
 * [Gitpod](https://www.gitpod.io/docs/) - Used as a development environment.
 
-* [Github](https://github.com/) - Used for respository hosting.
+* [Github](https://github.com/) - Used for repository hosting.
 
 * [Github Pages](https://pages.github.com/) - Used for site deployment.
 
@@ -254,58 +257,58 @@ The following user stories which were defined in the [UX](#ux "goto-ux") section
 
 #### Clients Stories
 
-* As a prospective client, I would like to find an 'About' section on the website, so that I can learn about the company, it's services and the qualification of the staff.
-    * A dedicated 'About' page has been created, which includes content on the company's mission, the services they provide and a detailed description on each team member and their skills.
+* As a prospective client, I would like to find an 'About' section on the website, so that I can learn about the company, its services and the qualification of the staff.
+    * A dedicated 'About' page has been created, which includes content on the company's mission, the services they provide, and a detailed description of each team member and their skills.
     * The company's services are also viewable on the 'About' page. Within the footer, quick contact-us links have also been provided to encourage the user to get in touch with any queries. 
 
-* As a prospective client, I would like to be able to send an online enquiry, so that I can receive additional information.
-    * An online enquiry form has been created within the 'Contact Us' section. This has been created to be very easy-to-use, with integrated invalid messages prompted to appear if the user has missed a required field. 
+* As a prospective client, I would like to be able to send an online inquiry, so that I can receive additional information.
+    * An online inquiry form has been created within the 'Contact Us' section. This has been created to be very easy-to-use, with integrated invalid messages prompted to appear if the user has missed a required field. 
     * Quick links to the 'Contact Us' page have also been included in the footer and header (hero image banner CTA) of each page. 
     * By encouraging the user to contact the company in many ways, a strong approachable message is conveyed. 
 
-* As a client who would prefer to speak over the phone rather than email, I would like to be able to request a call-back to an online enquiry and clearly be able to view a business telephone number and call-times.
-    * A preferred method of contact can be specified on the online enquiry form. 
+* As a client who would prefer to speak over the phone rather than email, I would like to be able to request a call-back to an online inquiry and clearly be able to view a business telephone number and call-times.
+    * A preferred method of contact can be specified on the online inquiry form. 
     * The company's contact telephone number is also visible on the footer of each page.
     * The company's contact telephone number with the message 'Want To Chat? So Do We!' is displayed on the 'Home' & 'Contact Us' page. 
 
 * As a prospective client, I would like to view a portfolio of past work, so that I will know what to expect.  
     * A dedicated 'Portfolio' page has been created.
-    * 'Award-Winning Gardens' are displayed first, showing the company's greatest acheivements.
-    * 'Our Recent Creations' shows an additional six garden designs with a date and discription included. 
-    * A variety of residential and commerical designs have been included to give a well-rounded representation of the company. 
-    * A CTA on the hero image banner enourages the user to contact the company if they have any additional questions. 
+    * 'Award-Winning Gardens' are displayed first, showing the company's greatest achievements.
+    * 'Our Recent Creations' shows an additional six garden designs with a date and description included. 
+    * A variety of residential and commercial designs have been included to give a well-rounded representation of the company. 
+    * A CTA on the hero image banner encourages the user to contact the company if they have any additional questions. 
 
 * As a prospective client who is knowledgeable in horticulture, I would like to see proof that the company are plant experts as this is important to me in garden design. 
     * Portraying a strong message of plant knowledge was taken into consideration when creating every page. 
     * The company is branded as 'plant-first landscapers'; a message which is portrayed in the footer and the header blurb (underneath the hero image banner) of pages. 
-    * In the 'About' page, the user can learn about the employeees and their skills which are displayed using progress bars. 
+    * In the 'About' page, the user can learn about the employees and their skills which are displayed using progress bars. 
     * In each creation listed on the 'Portfolio' page, all horticultural aspects of the projects are described. 
 
 * As a prospective client who is not knowledgeable in garden design, I would like to see what options are available to me so that I can decide if this company is right for me.  
     * All services provided by the company are listed in the 'About' web page. 
     * All services provided and a company description are included on the footer of each page. 
-    * The company's past creations are viewable in the 'Portfolio' page. This gives an in-depth overview of the standard of work which can be expected. 
-    * Testimonials are viewable on the 'Home' page, which give positive feedback on the company, showcasing how approachable the company is. 
+    * The company's past creations are viewable in the 'Portfolio' page. This gives an in-depth overview of the standard of work that can be expected. 
+    * Testimonials are viewable on the 'Home' page, which gives positive feedback on the company, showcasing how approachable the company is. 
     
-
 * As an existing client and admirer of the company, I would like to be able to connect with and follow the company through social media platforms, so that I can build a connection with the brand.
-    * Quick links to the compnay's social media platforms are viewable on the footer of each page. 
+    * Quick links to the company's social media platforms are viewable on the footer of each page. 
 
 
 #### Business Stories
 
 * As a team member, I want to see my skills and strengths clearly defined in an 'About' section so that our clients will know I'm qualified.
-    * A defined colour palette is used to display each employees skills.
+    * A defined colour palette is used to display each employee's skills.
     * A content block of text also compliments the progress bars.
-* As a team member who deals with enquiries, I want to to know the user's name, phone number and email address so that I can get in contact with them.
+
+* As a team member who deals with inquiries, I want to know the user's name, phone number, and email address so that I can get in contact with them.
     * The stated fields are marked required.
 
-* As a designer, I do not want prices to be posted online as quotes differ greatly dependending on the project and I really need to talk to the client first.
+* As a designer, I do not want prices to be posted online as quotes differ greatly depending on the project and I really need to talk to the client first.
     * Prices are not viewable on any section of the website. 
     * An explanation of why prices are excluded is included in the blurb section of the 'Contact us' page.
 
-* As the CEO, I want all of our acheivements and past creations to be featured online. 
-    * Awards acheived are diplayed on the hompage, with images of the projects visible on the 'Portfolio' page. 
+* As the CEO, I want all of our achievements and past creations to be featured online. 
+    * Awards achieved are displayed on the homepage, with images of the projects visible on the 'Portfolio' page. 
 
 ### Browser Compatibility
 As stated by [w3schools](https://www.w3schools.com/browsers/), the most used popular browsers in October 2020 are:
@@ -316,14 +319,14 @@ As stated by [w3schools](https://www.w3schools.com/browsers/), the most used pop
 4. Safari (3.7 %)
 
 [Cross Browser Testing](https://crossbrowsertesting.com/) was used to access the quality of the website on the above four browsers.
-During testing, a bug which affected all links  was discovered and this has been documented in the [Bugs Section](#bugs "goto bugs").
+During testing, a bug that affected all links  was discovered and this has been documented in the [Bugs section](#bugs "goto bugs").
 Other than this, no issues in compatibility were recorded. 
 Internet explorer was also checked and it was discovered that several Bootstrap features did not work on this browser. 
-Fixing these bugs in this release was not deemed as a priority due to the fact that IE is no longer supported by Microsoft.
+Fixing these bugs in this release was not deemed a priority due to the fact that IE is no longer supported by Microsoft.
 
 
 ### Responsiveness
-The website's reponsiveness was continuously monitored, throughout the development of this project using [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools).
+The website's responsiveness was continuously monitored, throughout the development of this project using [Chrome Dev Tools](https://developers.google.com/web/tools/chrome-devtools).
 
 In addition to this, [Lighthouse](https://developers.google.com/web/tools/lighthouse) was run in Chrome Dev Tools, to generate reports on the quality of the website.
 
@@ -342,20 +345,20 @@ The following actions were taken to improve best practices:
 * The color contrast of colours was increased.
 
 The following actions were taken to improve SEO:
-* Meta descriptions were added to all html pages.
+* Meta descriptions were added to all HTML pages.
 
 The changes made can be seen to have made an improvement in the following Lighthouse screenshot:
 
 ![Lighthouse Image - After](assets/images/misc/lighthouse2.jpg)
 
 
-The changes also made a positive impact to Desktop device use.
+The changes also made a positive impact on Desktop device use.
 
 ![Lighthouse Image - After Desktop](assets/images/misc/lighthouse-desktop.jpg)
 
 ### W3C Validation
 The validity of each page's HTML code was checked using [The W3C Markup Validation Service](https://validator.w3.org/).
-The following code changes were made to satisy the validator:
+The following code changes were made to satisfy the validator:
 
 * In index.html
     * Within the ```<ul>``` element, all ```<h4>``` and ```<a href>``` elements were removed.
@@ -372,9 +375,9 @@ No errors or warnings were found.
 ### Bugs
 
 1. Upon deploying the site on Github pages the path links did not work. 
-    * In all pages, clicking an ```<a href>``` link led to a 404 page, however all links were working correctly when locally deployed. 
+    * On all pages, clicking an ```<a href>``` link led to a 404 page, however, all links were working correctly when locally deployed. 
     * The issue was resolved by correcting the pathways so that they could be read outside the local environment.
-    * [Pluralsight](https://www.pluralsight.com/guides/fixing-broken-relative-links-on-github-pages), [Code Academy Forums](https://discuss.codecademy.com/t/css-not-working-on-github-pages/440469/2) and [Coffee Cup](https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/) articles assisted in ammending this issue. 
+    * [Pluralsight](https://www.pluralsight.com/guides/fixing-broken-relative-links-on-github-pages), [Code Academy Forums](https://discuss.codecademy.com/t/css-not-working-on-github-pages/440469/2), and [Coffee Cup](https://www.coffeecup.com/help/articles/absolute-vs-relative-pathslinks/) articles assisted in amending this issue. 
 
 2. Upon loading contact.html, white space was present in the text area field.
     * As 'Your Message' is a required field, the whitespace technically counted as input and would allow the user to send a message without entering content. 
@@ -387,7 +390,7 @@ No errors or warnings were found.
 The website was hosted on Github Pages. It was deployed by carrying out the following steps:
 
 1. login into Github.
-2. Select the respository from profile.
+2. Select the repository from the profile.
 3. go to 'settings' in the repository.
 4. In 'Github Pages' choose 'Master Branch' as Source and save.
 
@@ -432,7 +435,7 @@ The following websites were used for inspiration and assistance:
 * [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 
 ###  Media
-The images used on this site are royalty free and were obtained from the following websites:
+The images used on this site are royalty-free and were obtained from the following websites:
 
 * [Unsplash](https://unsplash.com/)
 * [Pexels](https://www.pexels.com/de-de/)
@@ -440,5 +443,5 @@ The images used on this site are royalty free and were obtained from the followi
 
 The company logo was generated on [Canva](https://www.canva.com/).
 
-### Acknowledgements
+### Acknowledgments
 * I would like to thank my Code Institute mentor, for his support and guidance throughout this project. 
