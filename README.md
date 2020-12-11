@@ -352,9 +352,11 @@ The following code changes were made to satisy the validator:
 
 * contact.html
     * Within the contact form, the legend element was replaced with a div.
+    * An Error was displayed, due to the 'title' select element being marked as required and having more than one option.
+      To ammend, ``` <option value="">Choose</option> ``` was added to the elment.
 
 The validity of the CSS code was checked using [The W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/).
-No errors were found.
+No errors or warnings were found.
 
 ### Bugs
 
