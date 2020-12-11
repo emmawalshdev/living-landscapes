@@ -93,9 +93,13 @@ h3.heading{
     color:white;
 }
 
+.btn.focus, .btn:focus { 
+    outline: 0;
+    box-shadow: 0; /* turn off the automatic shadow box*/
+}
+    
 /*jumbotron */
-
-.jumbotron{
+.jumbotron {
     background-color: transparent;
 }
 
@@ -358,7 +362,8 @@ h3.heading{
     text-decoration: none;
 }
 
-.click-footer-title-text:hover{
+.click-footer-title-text:hover,
+.click-footer-title-text:active{
     font-family: 'B612', sans-serif;
     font-weight:bold;
     color:#7853a5;
