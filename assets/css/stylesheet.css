@@ -543,8 +543,9 @@ h3.heading{
   .portfolio-hero-image-container{
         background: url("../images/hero-images/portb-mobile.png") no-repeat center top;
   }
-}
+} /*switch image for small screen sizes*/
 
+/* Awards */
 .garden-awards-container{
     margin-bottom:50px;
 }
@@ -555,6 +556,11 @@ h3.heading{
     border-radius:0;
 }
 
+.badge-gold{
+    background-color: rgb(168, 149, 38);
+}
+
+/* Our recent creations */
 .recent-gardens-container{
     margin-bottom:50px;
     background-color:rgba(156, 186, 167, 27%);
@@ -564,10 +570,6 @@ h3.heading{
     height:95% !important;
     width:95% !important;
     border-radius:0;
-}
-
-.badge-gold{
-    background-color: rgb(168, 149, 38);
 }
 
 .garden-text-box {
