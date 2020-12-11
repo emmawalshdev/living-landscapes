@@ -95,11 +95,12 @@ h3.heading{
     background-color:#7853a5;
     color:white;
 }
+.btn.focus, 
+.btn:focus {
+    outline: none;
+    box-shadow: none;
+} /* turn off the automatic shadow box*/
 
-.btn.focus, .btn:focus { 
-    outline: 0;
-    box-shadow: 0; /* turn off the automatic shadow box*/
-}
     
 /*jumbotron styling*/
 .jumbotron {
@@ -486,15 +487,17 @@ h3.heading{
   .contact-hero-image-container{
         background: url("../images/hero-images/contact-hero-mobile.png") no-repeat center top;
   }
-}
+} /*switch image for small screen sizes*/
 
 .contact-hero-image-container .jumbotron h1{
     text-align:left;
-}
+} /* offset jumbotron text to diff it from homepage */
 
 .contact-us-button{
     margin-top:20px;
 }
+
+/* form styling */
 
 .contact-us-form-container{
     margin:50px 0px;

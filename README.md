@@ -120,6 +120,8 @@ Layouts were created following research on the five planes of UX and before codi
 
 A consistent layout was used throughout the pages. One subtle design difference was created so that the user would easily be able to distinguish the homepage to subsequent pages.
 This inludes the offsetted hero-image text on the 'About','Portfolio', & 'Contact Us' page. 
+
+a href justification
 <strong>
 Please note, the final website layout contains slight variations to the original wireframes.
 </strong>
@@ -151,6 +153,7 @@ All fonts used are from [Google Fonts ](https://fonts.google.com/).
 Fonts used include:
 * B612 - used for all headings (h1 - h6).
 * Roboto - used for other all body text.
+
 
 
 ----------------------------
