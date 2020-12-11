@@ -57,7 +57,7 @@ h3.heading{
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
-    } /*switch brand logo position in nav bar from left to middle*/
+    } /*switch brand logo position in nav bar from left to middle on larger screen sizes*/
 }
 
 /* home banner */
@@ -81,7 +81,7 @@ h3.heading{
   .home-hero-image-container{
         background: url("../images/hero-images/home-hero-mobile.png") no-repeat center top;
   }
-}
+} /*switch image for small screen sizes*/
 
 
 /* btn styling */
@@ -101,7 +101,7 @@ h3.heading{
     box-shadow: 0; /* turn off the automatic shadow box*/
 }
     
-/*jumbotron */
+/*jumbotron styling*/
 .jumbotron {
     background-color: transparent;
 }
@@ -121,7 +121,7 @@ h3.heading{
     width:100%;
     background-color: rgba(0,0,0,0.2);
     top:0;
-    left:0;
+    left:0; /* apply a light overlay to improve text readability on hero banner*/
 }
 
 /*our-story-section */
@@ -131,7 +131,7 @@ h3.heading{
     text-align: center;
 }
 
-/*our creations*/
+/*our creations section */
 
 .our-creations-container{
     background-color: rgb(247, 244, 249);
@@ -154,7 +154,7 @@ h3.heading{
     align-items:center;
     justify-content: center;
 
-    position: relative;
+    position: relative; /* apply a shadowbox around image */
 }
 
 .creationexamples img{
@@ -169,7 +169,7 @@ h3.heading{
 
 .card{
     border:0;
-    background-color: rgb(231, 231, 231);
+    background-color: rgb(231, 231, 231); /*card holding our creations content*/
 }
 
 .card ul {
@@ -184,9 +184,10 @@ h3.heading{
 
 .garden-desc{
     font-weight:700;
-    font-style:italic;
+    font-style:italic; /*our creations garden description*/
 }
 
+/* key elements section */
 .key-company-elements{
     background-color: rgba(156, 186, 167, 27%);
     text-align:center;
@@ -204,10 +205,12 @@ h3.heading{
     padding: 0 3%;
 }
 
+/* testimonials- awards section*/
 .testimonials-awards-container{
     margin:50px 0px;
 }
 
+/* Testimonials section */
 .testimonial-section{
     background-color:rgb(247, 244, 249);
     text-align:center;
@@ -221,7 +224,7 @@ h3.heading{
     height:95%;
     padding: 30px 15px;
     box-shadow: 0 0 0 3px rgba(55, 151, 55, 8%);
-    margin-top: 10px;
+    margin-top: 10px; /* holds all testimonal contents*/
 }
 
 .shadow-box{
@@ -235,7 +238,7 @@ h3.heading{
     align-items:center;
     justify-content: center;
 
-    position: relative;
+    position: relative; /* shadow box for img*/
 }
 
 
@@ -250,21 +253,19 @@ h3.heading{
     width: 11em;
     height: 11em;
 }
-}
+} /* apply rules to shrink shadow box & img for tablet size devices */
 
 .testimonial-icon{
     font-size:24px;
     margin:10px 0px;
     height:30px;
-    width:30px;
+    width:30px; /* quotation marks */
 }
 
 .testimonial-card p{
     font-size: 95%;
     line-height:25px;
 }
-
-
 
 /*awards section*/ 
 
@@ -283,11 +284,12 @@ h3.heading{
     padding-left: 50px;
     padding-bottom:50px;
 }
+
 .awards-item:before{
     content:attr(data-adates);
     font-family: "B612", sans-serif;
     font-weight:bold;
-    font-size: 18px;
+    font-size: 18px; /* the date each award was achieved */
 }
 
 .awards-item:after{
@@ -298,13 +300,13 @@ h3.heading{
     background: url("../images/misc/flowers.png")no-repeat;
     position:absolute;
     top: 5%;
-    left: -50px;
+    left: -50px; /* flower image to represent each achived award*/
 }
 
 .awards-item .awarding-body{
     text-align:left! important;
     font-size:20px;
-    margin:4px 0px;
+    margin:4px 0px; /*Glasca / AlCA awards */
     
 }
 
@@ -338,7 +340,7 @@ h3.heading{
 
 .ahreflink{
     text-decoration: none;
-    color: black;
+    color: black; /* Over-ride automatic blue styling*/
 }
 
 .social-link-section{
@@ -389,17 +391,18 @@ h3.heading{
     justify-content: left;
 
     position: relative;
-}
+} /* needed as it is a new image */
 
 @media (max-width: 768px) {
   .about-hero-image-container{
         background: url("../images/hero-images/about-hero-mobile.png") no-repeat center top;
   }
-}
+} /*switch image for small screen sizes*/
 
 .about-hero-image-container .jumbotron h1{
     text-align:left;
-}
+} /* offset jumbotron text to diff it from homepage */
+
 
 /*about us - our services */
 
@@ -407,16 +410,13 @@ h3.heading{
     padding: 0 26px;
 }
 
-/* about us -our staff */
+/* about us - our Team */
 
 .meet-the-team-container{
     background-color: rgba(156, 186, 167, 27%)
 }
 
-.testimonial-section button{
-    display:block;
-}
-
+/* colours for progress bars */
 .bg-color1{
     background-color: #3e9e3e;
 }
