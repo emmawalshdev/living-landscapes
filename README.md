@@ -1,10 +1,8 @@
-# Code Institute - Milestone One
+# Living Landscapes Website
 
 ## User-Centric Frontend Development 
 
-![Living Landscapes Logo](assets/images/logo/footer_logo.png)
-
-## Living Landscapes - [Live Site](https://emmahartedev.github.io/living-landscapes/)
+![Living Landscapes Logo](assets/images/logo/footer_logo.png) - [View the Live Site here.](https://emmahartedev.github.io/living-landscapes/)
 
 ![Generated from Am I Responsive](assets/images/misc/responsive.png)
 
