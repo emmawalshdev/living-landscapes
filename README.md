@@ -444,4 +444,4 @@ The images used on this site are royalty-free and were obtained from the followi
 The company logo was generated on [Canva](https://www.canva.com/).
 
 ### Acknowledgments
-* I would like to thank my Code Institute mentor, for his support and guidance throughout this project. 
+* I would like to thank my Code Institute mentor, Gerard McBride for his support and guidance throughout this project. 
