@@ -84,6 +84,13 @@ h3.heading{
 } /*switch image for small screen sizes*/
 
 
+button.navbar-toggler{
+    outline:none;
+}
+
+/* remove outline on nav togg */
+
+
 /* btn styling */
 .btn--cta{
     background-color: rgb(61, 107, 61);
