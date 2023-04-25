@@ -2,7 +2,7 @@
 
 ## User-Centric Frontend Development 
 
-[View the Live Site here.](https://emmahartedev.github.io/living-landscapes/)
+[View the Live Site here.](https://emmawalshdev.github.io/living-landscapes/)
 
 ![Living Landscapes Logo](assets/images/logo/footer_logo.png) 
 
